@@ -1,7 +1,69 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8deb3706-178b-48ae-b715-e05654459988" name="Default Changelist" comment="" />
+    <list default="true" id="8deb3706-178b-48ae-b715-e05654459988" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../JVM_expriment/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JVM_expriment/src/main/java/compiler/JIT/testJIT.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JVM_expriment/src/main/java/compiler/optimatition/ArrayBoundRemove.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JVM_expriment/src/main/java/exeSystem/InvokDynamicTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JVM_expriment/src/main/java/exeSystem/LazyDelete.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JVM_expriment/src/main/java/exeSystem/MethodHandleTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JVM_expriment/src/main/java/exeSystem/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TankWar/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapterNow/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapterNow/src/main/java/Thread/AutomaticTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapterNow/src/main/java/Thread/ProduceAndConsume.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapterNow/src/main/java/Thread/ThreadLocalTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapterNow/src/main/java/Thread/ThreadLocalUse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapterNow/src/main/java/Thread/VolatileTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chapterNow/src/main/java/TryAndLog/ReThrow.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JVM_expriment/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JVM_expriment/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JVM_expriment/out/production/JVM_expriment/META-INF/JVM_expriment.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JVM_expriment/src/main/java/StringTest/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JVM_expriment/src/main/java/StringTest/MethodInvokeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JVM_expriment/src/main/java/compiler/BADLY_NAMED_CODE.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JVM_expriment/src/main/java/compiler/nameCheckP/BADLY_NAMED_CODE.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JVM_expriment/src/main/java/compiler/ChangeLenArgs.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JVM_expriment/src/main/java/compiler/nameCheckP/ChangeLenArgs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JVM_expriment/src/main/java/compiler/NameCheckProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JVM_expriment/src/main/java/compiler/nameCheckP/NameCheckProcessor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JVM_expriment/src/main/java/compiler/NameChecker.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JVM_expriment/src/main/java/compiler/nameCheckP/NameChecker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JVM_expriment/src/main/java/compiler/ProxyTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JVM_expriment/src/main/java/compiler/nameCheckP/ProxyTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JVM_expriment/src/main/java/compiler/TestInteger.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JVM_expriment/src/main/java/compiler/nameCheckP/TestInteger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JVM_expriment/src/main/java/compiler/allclasses-frame.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JVM_expriment/src/main/java/compiler/allclasses-noframe.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JVM_expriment/src/main/java/compiler/compiler/NameChecker.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JVM_expriment/src/main/java/compiler/compiler/package-frame.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JVM_expriment/src/main/java/compiler/compiler/package-summary.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JVM_expriment/src/main/java/compiler/compiler/package-tree.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JVM_expriment/src/main/java/compiler/constant-values.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JVM_expriment/src/main/java/compiler/deprecated-list.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JVM_expriment/src/main/java/compiler/help-doc.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JVM_expriment/src/main/java/compiler/index-all.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JVM_expriment/src/main/java/compiler/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JVM_expriment/src/main/java/compiler/overview-tree.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JVM_expriment/src/main/java/compiler/package-list" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JVM_expriment/src/main/java/compiler/script.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JVM_expriment/src/main/java/compiler/stylesheet.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JVM_expriment/target/classes/META-INF/JVM_expriment.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JVM_expriment/target/classes/StringTest/Test$Employee.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JVM_expriment/target/classes/StringTest/Test$Father.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JVM_expriment/target/classes/StringTest/Test$Gf.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JVM_expriment/target/classes/StringTest/Test$Son.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JVM_expriment/target/classes/StringTest/Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JVM_expriment/target/classes/compiler/BADLY_NAMED_CODE$colors.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JVM_expriment/target/classes/compiler/BADLY_NAMED_CODE.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JVM_expriment/target/classes/compiler/ChangeLenArgs.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JVM_expriment/target/classes/compiler/NameCheckProcessor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JVM_expriment/target/classes/compiler/NameChecker$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JVM_expriment/target/classes/compiler/NameChecker$NameCheckScanner.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JVM_expriment/target/classes/compiler/NameChecker.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JVM_expriment/target/classes/compiler/ProxyTest$DynamicProxy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JVM_expriment/target/classes/compiler/ProxyTest$Hello.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JVM_expriment/target/classes/compiler/ProxyTest$IHello.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JVM_expriment/target/classes/compiler/ProxyTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JVM_expriment/target/classes/compiler/TestInteger.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TankWar/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TankWar/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chapterNow/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../chapterNow/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chapterNow/javaBase.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chapterNow/target/classes/DataBase/Connect.class" beforeDir="false" afterPath="$PROJECT_DIR$/../chapterNow/target/classes/DataBase/Connect.class" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -49,7 +111,7 @@
         <entry file="file://$PROJECT_DIR$/src/single/readme">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="36">
-              <caret line="1" selection-start-line="1" selection-end-line="1" />
+              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
             </state>
           </provider>
         </entry>
@@ -113,6 +175,9 @@
       <replace>println</replace>
     </replaceStrings>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -133,13 +198,13 @@
     <option name="width" value="2100" />
     <option name="height" value="1269" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -152,22 +217,18 @@
               <item name="deisinModel" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="deisinModel" type="b2602c69:ProjectViewProjectNode" />
-              <item name="deisinModel" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="single" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../JVM_expriment" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../chapterNow" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
@@ -219,16 +280,17 @@
       <workItem from="1640517339276" duration="23000" />
       <workItem from="1650869986133" duration="651000" />
       <workItem from="1650873547592" duration="269000" />
+      <workItem from="1652235344350" duration="140000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4517000" />
+    <option name="totallyTimeSpent" value="4657000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1508" height="900" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24482758" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24827586" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -323,7 +385,7 @@
     <entry file="file://$PROJECT_DIR$/src/single/readme">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="36">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
         </state>
       </provider>
     </entry>
