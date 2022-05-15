@@ -2,44 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8deb3706-178b-48ae-b715-e05654459988" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chainOfResponsibility/FilterChainI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chainOfResponsibility/FilterChainII.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chainOfResponsibility/FilterChainIV.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chainOfResponsibility/FilterChiainIII.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chainOfResponsibility/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chainOfResponsibility/readme.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../designModel/src/proxy/V8.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../designModel/src/proxy/readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../threads/src/main/java/leetcode/BarrierTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../threads/src/main/java/leetcode/BoundBlockingQueMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../threads/src/main/java/leetcode/BoundedBlockingQueue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../threads/src/main/java/leetcode/BoundedBlockingQueue2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../threads/src/main/java/leetcode/Crawl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../threads/src/main/java/leetcode/Crawl2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../threads/src/main/java/leetcode/FizzBuzz.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../threads/src/main/java/leetcode/FizzBuzz3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../threads/src/main/java/leetcode/FizzBuzz4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../threads/src/main/java/leetcode/FizzBuzz5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../threads/src/main/java/leetcode/FizzBuzz6.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../threads/src/main/java/leetcode/FuzzBuzz2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../threads/src/main/java/leetcode/FuzzBuzzMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../threads/src/main/java/leetcode/H202.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../threads/src/main/java/leetcode/H2O.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../threads/src/main/java/leetcode/H2O3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../threads/src/main/java/leetcode/Philosophiers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../threads/src/main/java/leetcode/TestSynize.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../threads/src/main/java/leetcode/TrafficLight.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../chapterNow/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../chapterNow/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../chapterPre/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../chapterPre/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../chapterPre/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../chapterPre/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../chapterPre/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../chapterPre/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../chapterPre/src/main/java/Thread/TestDeadLock.java" beforeDir="false" afterPath="$PROJECT_DIR$/../chapterPre/src/main/java/Thread/TestDeadLock.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../chapterPre/src/main/java/web2/CommunicateSever.java" beforeDir="false" afterPath="$PROJECT_DIR$/../chapterPre/src/main/java/web2/CommunicateSever.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../chapterPre/target/classes/META-INF/java.kotlin_module" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/deisinModel.iml" beforeDir="false" afterPath="$PROJECT_DIR$/deisinModel.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../threads/src/main/java/leetcode/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/../threads/src/main/java/leetcode/readme.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -116,8 +79,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/chainOfResponsibility/FilterChainIV.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="197">
-              <caret line="63" column="13" lean-forward="true" selection-start-line="63" selection-start-column="13" selection-end-line="63" selection-end-column="13" />
+            <state relative-caret-position="233">
+              <caret line="67" column="46" lean-forward="true" selection-start-line="67" selection-start-column="46" selection-end-line="67" selection-end-column="46" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -394,18 +357,25 @@
       <workItem from="1652235344350" duration="140000" />
       <workItem from="1652442442285" duration="1111000" />
       <workItem from="1652491723688" duration="91000" />
-      <workItem from="1652603980543" duration="4882000" />
+      <workItem from="1652603980543" duration="5191000" />
     </task>
+    <task id="LOCAL-00001" summary="责任链模式的3个版本&#10;- 普通的链式添加&#10;- 可以把链条加到上面&#10;- 可以进行req和resp反向处理，用户决定是否继续执行。">
+      <created>1652612091849</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1652612091850</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10741000" />
+    <option name="totallyTimeSpent" value="11050000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1508" height="900" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25862068" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25862068" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -414,7 +384,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.328125" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.328125" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3997396" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -438,6 +408,10 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="责任链模式的3个版本&#10;- 普通的链式添加&#10;- 可以把链条加到上面&#10;- 可以进行req和resp反向处理，用户决定是否继续执行。" />
+    <option name="LAST_COMMIT_MESSAGE" value="责任链模式的3个版本&#10;- 普通的链式添加&#10;- 可以把链条加到上面&#10;- 可以进行req和resp反向处理，用户决定是否继续执行。" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/adapter/readme.txt">
@@ -601,8 +575,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/chainOfResponsibility/FilterChainIV.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="197">
-          <caret line="63" column="13" lean-forward="true" selection-start-line="63" selection-start-column="13" selection-end-line="63" selection-end-column="13" />
+        <state relative-caret-position="233">
+          <caret line="67" column="46" lean-forward="true" selection-start-line="67" selection-start-column="46" selection-end-line="67" selection-end-column="46" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
