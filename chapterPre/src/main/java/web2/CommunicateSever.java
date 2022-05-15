@@ -39,6 +39,7 @@ public class CommunicateSever extends Application{
 		        //创建两个客户端监听器,可以创建n个服务监听器，然后配对
 		        socket1 = serverSocket.accept();
 		        socket2 = serverSocket.accept();
+		        // 使用回调函数，如果匹配成功，原来的函数就返回一句话。
 		          Platform.runLater(() -> {
 		            ta.appendText("匹配成功");
 		          });

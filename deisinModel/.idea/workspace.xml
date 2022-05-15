@@ -2,67 +2,44 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8deb3706-178b-48ae-b715-e05654459988" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../JVM_expriment/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JVM_expriment/src/main/java/compiler/JIT/testJIT.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JVM_expriment/src/main/java/compiler/optimatition/ArrayBoundRemove.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JVM_expriment/src/main/java/exeSystem/InvokDynamicTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JVM_expriment/src/main/java/exeSystem/LazyDelete.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JVM_expriment/src/main/java/exeSystem/MethodHandleTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JVM_expriment/src/main/java/exeSystem/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TankWar/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chapterNow/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chapterNow/src/main/java/Thread/AutomaticTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chapterNow/src/main/java/Thread/ProduceAndConsume.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chapterNow/src/main/java/Thread/ThreadLocalTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chapterNow/src/main/java/Thread/ThreadLocalUse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chapterNow/src/main/java/Thread/VolatileTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chapterNow/src/main/java/TryAndLog/ReThrow.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JVM_expriment/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JVM_expriment/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JVM_expriment/out/production/JVM_expriment/META-INF/JVM_expriment.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JVM_expriment/src/main/java/StringTest/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JVM_expriment/src/main/java/StringTest/MethodInvokeTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JVM_expriment/src/main/java/compiler/BADLY_NAMED_CODE.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JVM_expriment/src/main/java/compiler/nameCheckP/BADLY_NAMED_CODE.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JVM_expriment/src/main/java/compiler/ChangeLenArgs.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JVM_expriment/src/main/java/compiler/nameCheckP/ChangeLenArgs.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JVM_expriment/src/main/java/compiler/NameCheckProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JVM_expriment/src/main/java/compiler/nameCheckP/NameCheckProcessor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JVM_expriment/src/main/java/compiler/NameChecker.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JVM_expriment/src/main/java/compiler/nameCheckP/NameChecker.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JVM_expriment/src/main/java/compiler/ProxyTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JVM_expriment/src/main/java/compiler/nameCheckP/ProxyTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JVM_expriment/src/main/java/compiler/TestInteger.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JVM_expriment/src/main/java/compiler/nameCheckP/TestInteger.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JVM_expriment/src/main/java/compiler/allclasses-frame.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JVM_expriment/src/main/java/compiler/allclasses-noframe.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JVM_expriment/src/main/java/compiler/compiler/NameChecker.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JVM_expriment/src/main/java/compiler/compiler/package-frame.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JVM_expriment/src/main/java/compiler/compiler/package-summary.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JVM_expriment/src/main/java/compiler/compiler/package-tree.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JVM_expriment/src/main/java/compiler/constant-values.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JVM_expriment/src/main/java/compiler/deprecated-list.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JVM_expriment/src/main/java/compiler/help-doc.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JVM_expriment/src/main/java/compiler/index-all.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JVM_expriment/src/main/java/compiler/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JVM_expriment/src/main/java/compiler/overview-tree.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JVM_expriment/src/main/java/compiler/package-list" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JVM_expriment/src/main/java/compiler/script.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JVM_expriment/src/main/java/compiler/stylesheet.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JVM_expriment/target/classes/META-INF/JVM_expriment.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JVM_expriment/target/classes/StringTest/Test$Employee.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JVM_expriment/target/classes/StringTest/Test$Father.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JVM_expriment/target/classes/StringTest/Test$Gf.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JVM_expriment/target/classes/StringTest/Test$Son.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JVM_expriment/target/classes/StringTest/Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JVM_expriment/target/classes/compiler/BADLY_NAMED_CODE$colors.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JVM_expriment/target/classes/compiler/BADLY_NAMED_CODE.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JVM_expriment/target/classes/compiler/ChangeLenArgs.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JVM_expriment/target/classes/compiler/NameCheckProcessor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JVM_expriment/target/classes/compiler/NameChecker$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JVM_expriment/target/classes/compiler/NameChecker$NameCheckScanner.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JVM_expriment/target/classes/compiler/NameChecker.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JVM_expriment/target/classes/compiler/ProxyTest$DynamicProxy.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JVM_expriment/target/classes/compiler/ProxyTest$Hello.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JVM_expriment/target/classes/compiler/ProxyTest$IHello.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JVM_expriment/target/classes/compiler/ProxyTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JVM_expriment/target/classes/compiler/TestInteger.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TankWar/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TankWar/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chainOfResponsibility/FilterChainI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chainOfResponsibility/FilterChainII.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chainOfResponsibility/FilterChainIV.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chainOfResponsibility/FilterChiainIII.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chainOfResponsibility/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chainOfResponsibility/readme.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../designModel/src/proxy/V8.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../designModel/src/proxy/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../threads/src/main/java/leetcode/BarrierTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../threads/src/main/java/leetcode/BoundBlockingQueMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../threads/src/main/java/leetcode/BoundedBlockingQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../threads/src/main/java/leetcode/BoundedBlockingQueue2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../threads/src/main/java/leetcode/Crawl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../threads/src/main/java/leetcode/Crawl2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../threads/src/main/java/leetcode/FizzBuzz.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../threads/src/main/java/leetcode/FizzBuzz3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../threads/src/main/java/leetcode/FizzBuzz4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../threads/src/main/java/leetcode/FizzBuzz5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../threads/src/main/java/leetcode/FizzBuzz6.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../threads/src/main/java/leetcode/FuzzBuzz2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../threads/src/main/java/leetcode/FuzzBuzzMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../threads/src/main/java/leetcode/H202.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../threads/src/main/java/leetcode/H2O.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../threads/src/main/java/leetcode/H2O3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../threads/src/main/java/leetcode/Philosophiers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../threads/src/main/java/leetcode/TestSynize.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../threads/src/main/java/leetcode/TrafficLight.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../chapterNow/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../chapterNow/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../chapterNow/javaBase.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../chapterNow/target/classes/DataBase/Connect.class" beforeDir="false" afterPath="$PROJECT_DIR$/../chapterNow/target/classes/DataBase/Connect.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chapterPre/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../chapterPre/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chapterPre/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../chapterPre/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chapterPre/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../chapterPre/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chapterPre/src/main/java/Thread/TestDeadLock.java" beforeDir="false" afterPath="$PROJECT_DIR$/../chapterPre/src/main/java/Thread/TestDeadLock.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chapterPre/src/main/java/web2/CommunicateSever.java" beforeDir="false" afterPath="$PROJECT_DIR$/../chapterPre/src/main/java/web2/CommunicateSever.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chapterPre/target/classes/META-INF/java.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deisinModel.iml" beforeDir="false" afterPath="$PROJECT_DIR$/deisinModel.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../threads/src/main/java/leetcode/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/../threads/src/main/java/leetcode/readme.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -77,50 +54,95 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/adapter/readme.txt">
+        <entry file="file://$PROJECT_DIR$/src/chainOfResponsibility/Test.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="3" selection-start-line="3" selection-end-line="3" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/adapter/TurkeyAdapter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="3" selection-start-line="3" selection-end-line="3" />
+            <state relative-caret-position="360">
+              <caret line="10" column="21" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
               <folding>
-                <element signature="e#186#187#0" expanded="true" />
-                <element signature="e#216#217#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/adapter/DuckTestDriver.java">
+        <entry file="file://$PROJECT_DIR$/src/chainOfResponsibility/FilterChainI.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="828">
-              <caret line="23" column="18" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/single/readme">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="36">
-              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+            <state relative-caret-position="1450">
+              <caret line="48" column="34" lean-forward="true" selection-start-line="48" selection-start-column="25" selection-end-line="48" selection-end-column="34" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#615#616#0" expanded="true" />
+                <element signature="e#643#644#0" expanded="true" />
+                <element signature="e#681#682#0" expanded="true" />
+                <element signature="e#711#712#0" expanded="true" />
+                <element signature="e#814#815#0" expanded="true" />
+                <element signature="e#840#841#0" expanded="true" />
+                <element signature="e#378#379#0" expanded="true" />
+                <element signature="e#420#421#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/adapter/WildTurkey.java">
+        <entry file="file://$PROJECT_DIR$/src/chainOfResponsibility/FilterChainII.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="10" column="37" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="37" />
+            <state relative-caret-position="180">
+              <caret line="20" column="23" selection-start-line="20" selection-start-column="23" selection-end-line="20" selection-end-column="23" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#343#344#0" expanded="true" />
+                <element signature="e#359#360#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/chainOfResponsibility/FilterChiainIII.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="8" column="11" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#219#220#0" expanded="true" />
+                <element signature="e#262#263#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/chainOfResponsibility/FilterChainIV.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="197">
+              <caret line="63" column="13" lean-forward="true" selection-start-line="63" selection-start-column="13" selection-end-line="63" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://D:/usersoftware/java/jdk1.8.0_221/src.zip!/java/util/Iterator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1656">
+              <caret line="69" column="6" selection-start-line="69" selection-start-column="6" selection-end-line="69" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://D:/usersoftware/java/jdk1.8.0_221/src.zip!/java/util/LinkedList.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="29916">
+              <caret line="882" column="30" selection-start-line="882" selection-start-column="23" selection-end-line="882" selection-end-column="30" />
+              <folding>
+                <element signature="e#26756#26757#0" expanded="true" />
+                <element signature="e#26803#26804#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -170,6 +192,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>printf</find>
+      <find>next</find>
     </findStrings>
     <replaceStrings>
       <replace>println</replace>
@@ -189,6 +212,14 @@
         <option value="$PROJECT_DIR$/src/adapter/MallarDuck.java" />
         <option value="$PROJECT_DIR$/src/adapter/WildTurkey.java" />
         <option value="$PROJECT_DIR$/src/single/readme" />
+        <option value="$PROJECT_DIR$/src/filterChain.java" />
+        <option value="$PROJECT_DIR$/src/chainOfResponsibility/readme.txt" />
+        <option value="$PROJECT_DIR$/src/chainOfResponsibility/filterChain.java" />
+        <option value="$PROJECT_DIR$/src/chainOfResponsibility/filterChainI.java" />
+        <option value="$PROJECT_DIR$/src/chainOfResponsibility/FilterChainI.java" />
+        <option value="$PROJECT_DIR$/src/chainOfResponsibility/FilterChainII.java" />
+        <option value="$PROJECT_DIR$/src/chainOfResponsibility/FilterChiainIII.java" />
+        <option value="$PROJECT_DIR$/src/chainOfResponsibility/FilterChainIV.java" />
       </list>
     </option>
   </component>
@@ -204,6 +235,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -217,20 +249,49 @@
               <item name="deisinModel" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="deisinModel" type="b2602c69:ProjectViewProjectNode" />
+              <item name="deisinModel" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="chainOfResponsibility" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="deisinModel" type="b2602c69:ProjectViewProjectNode" />
+              <item name="deisinModel" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="chainOfResponsibility" type="462c0819:PsiDirectoryNode" />
+              <item name="FilterChainI.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+            </path>
+            <path>
+              <item name="deisinModel" type="b2602c69:ProjectViewProjectNode" />
+              <item name="deisinModel" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="chainOfResponsibility" type="462c0819:PsiDirectoryNode" />
+              <item name="FilterChainII.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+            </path>
+            <path>
+              <item name="deisinModel" type="b2602c69:ProjectViewProjectNode" />
+              <item name="deisinModel" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="chainOfResponsibility" type="462c0819:PsiDirectoryNode" />
+              <item name="FilterChiainIII.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../chapterNow" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RunDashboard">
@@ -245,13 +306,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
-    <configuration name="DuckTestDriver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="adapter.DuckTestDriver" />
+  <component name="RunManager" selected="Application.FilterChainIV">
+    <configuration name="FilterChainI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chainOfResponsibility.FilterChainI" />
       <module name="deisinModel" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="adapter.*" />
+          <option name="PATTERN" value="chainOfResponsibility.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -259,9 +320,59 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="FilterChainII" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chainOfResponsibility.FilterChainII" />
+      <module name="deisinModel" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="chainOfResponsibility.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FilterChainIV" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chainOfResponsibility.FilterChainIV" />
+      <module name="deisinModel" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="chainOfResponsibility.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FilterChiainIII" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chainOfResponsibility.FilterChiainIII" />
+      <module name="deisinModel" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="chainOfResponsibility.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chainOfResponsibility.Test" />
+      <module name="deisinModel" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.DuckTestDriver" />
+        <item itemvalue="Application.FilterChainIV" />
+        <item itemvalue="Application.FilterChiainIII" />
+        <item itemvalue="Application.FilterChainII" />
+        <item itemvalue="Application.FilterChainI" />
+        <item itemvalue="Application.Test" />
       </list>
     </recent_temporary>
   </component>
@@ -281,16 +392,20 @@
       <workItem from="1650869986133" duration="651000" />
       <workItem from="1650873547592" duration="269000" />
       <workItem from="1652235344350" duration="140000" />
+      <workItem from="1652442442285" duration="1111000" />
+      <workItem from="1652491723688" duration="91000" />
+      <workItem from="1652603980543" duration="4882000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4657000" />
+    <option name="totallyTimeSpent" value="10741000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1508" height="900" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24827586" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25862068" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -299,8 +414,8 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32899868" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.328125" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3997396" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -309,7 +424,7 @@
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.32899868" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.328125" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -357,6 +472,56 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/single/readme">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chainOfResponsibility/readme.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/usersoftware/java/jdk1.8.0_221/src.zip!/java/lang/Iterable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="44" column="17" selection-start-line="44" selection-start-column="17" selection-end-line="44" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/usersoftware/java/jdk1.8.0_221/src.zip!/java/util/AbstractSequentialList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7704">
+          <caret line="237" column="14" selection-start-line="237" selection-start-column="11" selection-end-line="237" selection-end-column="19" />
+          <folding>
+            <element signature="e#8834#8835#0" expanded="true" />
+            <element signature="e#8871#8872#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/usersoftware/java/jdk1.8.0_221/src.zip!/java/util/Iterator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1656">
+          <caret line="69" column="6" selection-start-line="69" selection-start-column="6" selection-end-line="69" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/usersoftware/java/jdk1.8.0_221/src.zip!/java/util/LinkedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="29916">
+          <caret line="882" column="30" selection-start-line="882" selection-start-column="23" selection-end-line="882" selection-end-column="30" />
+          <folding>
+            <element signature="e#26756#26757#0" expanded="true" />
+            <element signature="e#26803#26804#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/adapter/MallarDuck.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="252">
@@ -382,19 +547,143 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/single/readme">
+    <entry file="file://$PROJECT_DIR$/src/chainOfResponsibility/Test.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        <state relative-caret-position="360">
+          <caret line="10" column="21" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chainOfResponsibility/FilterChainII.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="20" column="23" selection-start-line="20" selection-start-column="23" selection-end-line="20" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#343#344#0" expanded="true" />
+            <element signature="e#359#360#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chainOfResponsibility/FilterChiainIII.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="8" column="11" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#219#220#0" expanded="true" />
+            <element signature="e#262#263#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chainOfResponsibility/FilterChainI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1450">
+          <caret line="48" column="34" lean-forward="true" selection-start-line="48" selection-start-column="25" selection-end-line="48" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#615#616#0" expanded="true" />
+            <element signature="e#643#644#0" expanded="true" />
+            <element signature="e#681#682#0" expanded="true" />
+            <element signature="e#711#712#0" expanded="true" />
+            <element signature="e#814#815#0" expanded="true" />
+            <element signature="e#840#841#0" expanded="true" />
+            <element signature="e#378#379#0" expanded="true" />
+            <element signature="e#420#421#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chainOfResponsibility/FilterChainIV.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="63" column="13" lean-forward="true" selection-start-line="63" selection-start-column="13" selection-end-line="63" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
   </component>
   <component name="masterDetails">
     <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>deisinModel</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
       <state key="ProjectJDKs.UI">
         <settings>
           <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
           <splitter-proportions>
             <option name="proportions">
               <list>
