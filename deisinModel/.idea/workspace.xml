@@ -2,9 +2,36 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8deb3706-178b-48ae-b715-e05654459988" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/chainOfResponsibility/v5/FilterChianI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/observer/buttonTest/SwingObserverExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/observer/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/observer/v3/DirEvent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/observer/v3/Event.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/observer/v3/MAIN.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/observer/v3/NumEvent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/observer/v3/Observer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/observer/v3/Source.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/observer/v4/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/observer/v4/Observer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/observer/v4/Subject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/observer/v5/DirEvent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/observer/v5/Event.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/observer/v5/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/observer/v5/NumEvent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/observer/v5/Observer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/observer/v5/Subject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/observer/v6/CurrentWeatherDisplay.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/observer/v6/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/observer/v6/OtherData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/observer/v6/WeatherData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/observer/v7/CurrentWeatherDisplay.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/observer/v7/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/observer/v7/Observer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/observer/v7/Subject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/observer/v7/WeatherData.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chainOfResponsibility/FilterChainIV.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chainOfResponsibility/FilterChainIV.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chainOfResponsibility/FilterChainII.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chainOfResponsibility/FilterChainII.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chainOfResponsibility/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/chainOfResponsibility/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../threads/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../threads/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,103 +45,131 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/observer/v7/WeatherData.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="36">
+              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#269#270#0" expanded="true" />
+                <element signature="e#314#315#0" expanded="true" />
+                <element signature="e#354#355#0" expanded="true" />
+                <element signature="e#388#389#0" expanded="true" />
+                <element signature="e#422#423#0" expanded="true" />
+                <element signature="e#453#454#0" expanded="true" />
+                <element signature="e#487#488#0" expanded="true" />
+                <element signature="e#518#519#0" expanded="true" />
+                <element signature="e#382#383#0" expanded="true" />
+                <element signature="e#412#413#0" expanded="true" />
+                <element signature="e#471#472#0" expanded="true" />
+                <element signature="e#487#488#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/observer/v7/CurrentWeatherDisplay.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="274">
+              <caret line="25" column="5" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/observer/v7/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="216">
+              <caret line="6" column="14" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/observer/v6/CurrentWeatherDisplay.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="233">
+              <caret line="38" lean-forward="true" selection-end-line="38" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/chainOfResponsibility/FilterChainIV.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="449">
-              <caret line="28" column="1" lean-forward="true" selection-start-line="28" selection-start-column="1" selection-end-line="28" selection-end-column="1" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/chainOfResponsibility/v5/FilterChianI.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="5" column="2" lean-forward="true" selection-start-line="5" selection-start-column="2" selection-end-line="5" selection-end-column="2" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://D:/usersoftware/java/jdk1.8.0_221/src.zip!/java/io/FileNotFoundException.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="864">
-              <caret line="62" column="11" selection-start-line="62" selection-start-column="11" selection-end-line="62" selection-end-column="11" />
-              <folding>
-                <element signature="e#1063#1064#0" expanded="true" />
-                <element signature="e#1086#1087#0" expanded="true" />
-                <element signature="e#1471#1472#0" expanded="true" />
-                <element signature="e#1495#1496#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://D:/usersoftware/java/jdk1.8.0_221/src.zip!/java/io/IOException.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
-              <caret line="38" column="29" selection-start-line="38" selection-start-column="29" selection-end-line="38" selection-end-column="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://D:/usersoftware/java/jdk1.8.0_221/src.zip!/java/lang/Exception.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="44" column="13" selection-start-line="44" selection-start-column="13" selection-end-line="44" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://D:/usersoftware/java/jdk1.8.0_221/src.zip!/java/lang/NullPointerException.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="631">
-              <caret line="68" column="11" selection-start-line="68" selection-start-column="11" selection-end-line="68" selection-end-column="11" />
-              <folding>
-                <element signature="e#1616#1617#0" expanded="true" />
-                <element signature="e#1640#1641#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/adapter/MallarDuck.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="10" column="26" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
-              <folding>
-                <element signature="e#98#99#0" expanded="true" />
-                <element signature="e#146#147#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/adapter/Turkey.java">
+        <entry file="file://$PROJECT_DIR$/src/observer/v6/Main.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="72">
-              <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+              <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/adapter/Duck.java">
+        <entry file="file://$PROJECT_DIR$/src/observer/v6/OtherData.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="144">
-              <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+              <caret line="4" column="34" selection-start-line="4" selection-start-column="34" selection-end-line="4" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://D:/usersoftware/java/jdk1.8.0_221/src.zip!/java/util/Observable.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="197">
+              <caret line="212" column="1" lean-forward="true" selection-start-line="212" selection-start-column="1" selection-end-line="212" selection-end-column="1" />
+              <folding>
+                <element signature="e#3747#3748#0" expanded="true" />
+                <element signature="e#3784#3785#0" expanded="true" />
+                <element signature="e#5937#5938#0" expanded="true" />
+                <element signature="e#5967#5968#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://D:/usersoftware/java/jdk1.8.0_221/src.zip!/java/util/Vector.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="190">
+              <caret line="645" column="31" lean-forward="true" selection-start-line="645" selection-start-column="31" selection-end-line="645" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://D:/usersoftware/java/jdk1.8.0_221/src.zip!/java/util/Observer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="211">
+              <caret line="34" column="17" selection-start-line="34" selection-start-column="17" selection-end-line="34" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/observer/v6/WeatherData.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="89">
+              <caret line="51" column="16" lean-forward="true" selection-start-line="51" selection-start-column="16" selection-end-line="51" selection-end-column="16" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#256#257#0" expanded="true" />
+                <element signature="e#287#288#0" expanded="true" />
+                <element signature="e#334#335#0" expanded="true" />
+                <element signature="e#374#375#0" expanded="true" />
+                <element signature="e#408#409#0" expanded="true" />
+                <element signature="e#439#440#0" expanded="true" />
+                <element signature="e#486#487#0" expanded="true" />
+                <element signature="e#526#527#0" expanded="true" />
+                <element signature="e#563#564#0" expanded="true" />
+                <element signature="e#597#598#0" expanded="true" />
+                <element signature="e#650#651#0" expanded="true" />
+                <element signature="e#696#697#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -158,20 +213,46 @@
         <option value="$PROJECT_DIR$/src/chainOfResponsibility/filterChain.java" />
         <option value="$PROJECT_DIR$/src/chainOfResponsibility/filterChainI.java" />
         <option value="$PROJECT_DIR$/src/chainOfResponsibility/FilterChainI.java" />
-        <option value="$PROJECT_DIR$/src/chainOfResponsibility/FilterChainII.java" />
         <option value="$PROJECT_DIR$/src/chainOfResponsibility/FilterChiainIII.java" />
         <option value="$PROJECT_DIR$/src/chainOfResponsibility/v5/FilterChianI.java" />
         <option value="$PROJECT_DIR$/src/chainOfResponsibility/v6/MySensitiveFilter.java" />
         <option value="$PROJECT_DIR$/src/chainOfResponsibility/v6/FilterChainIV.java" />
         <option value="$PROJECT_DIR$/src/chainOfResponsibility/FilterChainIV.java" />
+        <option value="$PROJECT_DIR$/src/chainOfResponsibility/FilterChainII.java" />
+        <option value="$PROJECT_DIR$/src/chainOfResponsibility/readme.md" />
+        <option value="$PROJECT_DIR$/src/observer/v3/Observer.java" />
+        <option value="$PROJECT_DIR$/src/observer/v4/Observer.java" />
+        <option value="$PROJECT_DIR$/src/observer/v4/Subject.java" />
+        <option value="$PROJECT_DIR$/src/observer/v3/Event.java" />
+        <option value="$PROJECT_DIR$/src/observer/v3/NumEvent.java" />
+        <option value="$PROJECT_DIR$/src/observer/v3/DirEvent.java" />
+        <option value="$PROJECT_DIR$/src/observer/v3/Source.java" />
+        <option value="$PROJECT_DIR$/src/observer/v3/MAIN.java" />
+        <option value="$PROJECT_DIR$/src/observer/v5/Observer.java" />
+        <option value="$PROJECT_DIR$/src/observer/v5/Event.java" />
+        <option value="$PROJECT_DIR$/src/observer/v5/DirEvent.java" />
+        <option value="$PROJECT_DIR$/src/observer/v5/NumEvent.java" />
+        <option value="$PROJECT_DIR$/src/observer/buttonTest/SwingObserverExample.java" />
+        <option value="$PROJECT_DIR$/src/observer/v5/Subject.java" />
+        <option value="$PROJECT_DIR$/src/observer/v5/Main.java" />
+        <option value="$PROJECT_DIR$/src/observer/v6/CurrentWeatherDisplay.java" />
+        <option value="$PROJECT_DIR$/src/observer/v6/OtherData.java" />
+        <option value="$PROJECT_DIR$/src/observer/v6/Main.java" />
+        <option value="$PROJECT_DIR$/src/observer/v4/Main.java" />
+        <option value="$PROJECT_DIR$/src/observer/v7/Subject.java" />
+        <option value="$PROJECT_DIR$/src/observer/v6/WeatherData.java" />
+        <option value="$PROJECT_DIR$/src/observer/v7/Observer.java" />
+        <option value="$PROJECT_DIR$/src/observer/v7/CurrentWeatherDisplay.java" />
+        <option value="$PROJECT_DIR$/src/observer/v7/WeatherData.java" />
+        <option value="$PROJECT_DIR$/src/observer/v7/Main.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-12" />
-    <option name="y" value="6" />
-    <option name="width" value="2100" />
-    <option name="height" value="1269" />
+    <option name="y" value="-12" />
+    <option name="width" value="1140" />
+    <option name="height" value="1338" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -181,6 +262,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -197,13 +279,19 @@
               <item name="deisinModel" type="b2602c69:ProjectViewProjectNode" />
               <item name="deisinModel" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="chainOfResponsibility" type="462c0819:PsiDirectoryNode" />
+              <item name="observer" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="deisinModel" type="b2602c69:ProjectViewProjectNode" />
+              <item name="deisinModel" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="observer" type="462c0819:PsiDirectoryNode" />
+              <item name="v6" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -211,7 +299,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/chainOfResponsibility/v6" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/observer/v5" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -221,9 +309,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="observer.v5" />
       <recent name="chainOfResponsibility.v6" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\projects\java\javaBase\deisinModel\src\observer\v5" />
       <recent name="D:\projects\java\javaBase\deisinModel\src\chainOfResponsibility\v6" />
     </key>
   </component>
@@ -239,13 +329,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.FilterChainIV (1)">
-    <configuration name="FilterChainII" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chainOfResponsibility.FilterChainII" />
+  <component name="RunManager" selected="Application.Main (3)">
+    <configuration name="MAIN" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="observer.v3.MAIN" />
       <module name="deisinModel" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="chainOfResponsibility.*" />
+          <option name="PATTERN" value="observer.v3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -253,12 +343,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FilterChainIV (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chainOfResponsibility.v6.FilterChainIV" />
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="observer.v5.Main" />
       <module name="deisinModel" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="chainOfResponsibility.v6.*" />
+          <option name="PATTERN" value="observer.v5.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -266,12 +356,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FilterChainIV" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chainOfResponsibility.FilterChainIV" />
+    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="observer.v6.Main" />
       <module name="deisinModel" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="chainOfResponsibility.*" />
+          <option name="PATTERN" value="observer.v6.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -279,12 +369,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FilterChiainIII" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chainOfResponsibility.FilterChiainIII" />
+    <configuration name="Main (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="observer.v7.Main" />
       <module name="deisinModel" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="chainOfResponsibility.*" />
+          <option name="PATTERN" value="observer.v7.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -292,12 +382,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FilterChianI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chainOfResponsibility.v5.FilterChianI" />
+    <configuration name="SwingObserverExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="observer.buttonTest.SwingObserverExample" />
       <module name="deisinModel" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="chainOfResponsibility.v5.*" />
+          <option name="PATTERN" value="observer.buttonTest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -307,11 +397,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.FilterChainIV (1)" />
-        <item itemvalue="Application.FilterChainIV" />
-        <item itemvalue="Application.FilterChianI" />
-        <item itemvalue="Application.FilterChiainIII" />
-        <item itemvalue="Application.FilterChainII" />
+        <item itemvalue="Application.Main (3)" />
+        <item itemvalue="Application.Main (2)" />
+        <item itemvalue="Application.Main (1)" />
+        <item itemvalue="Application.SwingObserverExample" />
+        <item itemvalue="Application.MAIN" />
       </list>
     </recent_temporary>
   </component>
@@ -334,7 +424,10 @@
       <workItem from="1652442442285" duration="1111000" />
       <workItem from="1652491723688" duration="91000" />
       <workItem from="1652603980543" duration="5233000" />
-      <workItem from="1652616163742" duration="3767000" />
+      <workItem from="1652616163742" duration="4639000" />
+      <workItem from="1652669406115" duration="17000" />
+      <workItem from="1652672025697" duration="439000" />
+      <workItem from="1652672499562" duration="14058000" />
     </task>
     <task id="LOCAL-00001" summary="责任链模式的3个版本&#10;- 普通的链式添加&#10;- 可以把链条加到上面&#10;- 可以进行req和resp反向处理，用户决定是否继续执行。">
       <created>1652612091849</created>
@@ -350,17 +443,24 @@
       <option name="project" value="LOCAL" />
       <updated>1652612124109</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="责任链模式的讲解">
+      <created>1652620063436</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1652620063436</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14859000" />
+    <option name="totallyTimeSpent" value="30245000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1508" height="900" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26206896" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26068965" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -396,77 +496,24 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="责任链模式的3个版本&#10;- 普通的链式添加&#10;- 可以把链条加到上面&#10;- 可以进行req和resp反向处理，用户决定是否继续执行。" />
-    <option name="LAST_COMMIT_MESSAGE" value="责任链模式的3个版本&#10;- 普通的链式添加&#10;- 可以把链条加到上面&#10;- 可以进行req和resp反向处理，用户决定是否继续执行。" />
+    <MESSAGE value="责任链模式的讲解" />
+    <option name="LAST_COMMIT_MESSAGE" value="责任链模式的讲解" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/adapter/readme.txt">
+    <entry file="file://$PROJECT_DIR$/src/adapter/Turkey.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        <state relative-caret-position="72">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/adapter/TurkeyAdapter.java">
+    <entry file="file://$PROJECT_DIR$/src/chainOfResponsibility/v5/Filter.java" />
+    <entry file="file://$PROJECT_DIR$/src/chainOfResponsibility/v6/MySensitiveFilter.java" />
+    <entry file="file://$PROJECT_DIR$/src/chainOfResponsibility/v6/FilterChainIV.java" />
+    <entry file="file://$PROJECT_DIR$/src/chainOfResponsibility/FilterChainIV.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-          <folding>
-            <element signature="e#186#187#0" expanded="true" />
-            <element signature="e#216#217#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/adapter/DuckTestDriver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="828">
-          <caret line="23" column="18" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/adapter/WildTurkey.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="10" column="37" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/single/readme">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/chainOfResponsibility/readme.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/usersoftware/java/jdk1.8.0_221/src.zip!/java/lang/Iterable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="44" column="17" selection-start-line="44" selection-start-column="17" selection-end-line="44" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/usersoftware/java/jdk1.8.0_221/src.zip!/java/util/AbstractSequentialList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="7704">
-          <caret line="237" column="14" selection-start-line="237" selection-start-column="11" selection-end-line="237" selection-end-column="19" />
-          <folding>
-            <element signature="e#8834#8835#0" expanded="true" />
-            <element signature="e#8871#8872#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/chainOfResponsibility/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="10" column="21" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
+        <state relative-caret-position="972">
+          <caret line="28" column="1" selection-start-line="28" selection-start-column="1" selection-end-line="28" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -475,112 +522,168 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/chainOfResponsibility/FilterChainI.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1332">
-          <caret line="48" column="34" selection-start-line="48" selection-start-column="25" selection-end-line="48" selection-end-column="34" />
+        <state relative-caret-position="828">
+          <caret line="28" column="5" selection-end-line="85" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JavaScript-modules-diagram/D:/projects/java/javaBase/deisinModel/src/adapter">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JavaScript-modules-diagram</ID>
+          <OriginalElement>$PROJECT_DIR$/src/adapter</OriginalElement>
+          <nodes />
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="530.0" y="357.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>All</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>Details</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/chainOfResponsibility">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>chainOfResponsibility</OriginalElement>
+          <nodes>
+            <node x="0.0" y="556.0">chainOfResponsibility.FilterChain</node>
+            <node x="220.0" y="96.0">chainOfResponsibility.MySensitiveFilter</node>
+            <node x="274.0" y="0.0">chainOfResponsibility.MyFilter</node>
+            <node x="193.0" y="647.0">chainOfResponsibility.Message</node>
+            <node x="392.0" y="283.0">chainOfResponsibility.SensitiveFilter</node>
+            <node x="0.0" y="647.0">chainOfResponsibility.v5</node>
+            <node x="430.0" y="556.0">chainOfResponsibility.MyRequest</node>
+            <node x="245.0" y="465.0">chainOfResponsibility.FilterChainI</node>
+            <node x="366.0" y="647.0">chainOfResponsibility.Test</node>
+            <node x="221.0" y="556.0">chainOfResponsibility.MyResponse</node>
+            <node x="269.0" y="374.0">chainOfResponsibility.FilterChainII</node>
+            <node x="184.0" y="283.0">chainOfResponsibility.FilterChain3</node>
+            <node x="0.0" y="283.0">chainOfResponsibility.HtmlFilter</node>
+            <node x="478.0" y="465.0">chainOfResponsibility.FilterChain2</node>
+            <node x="488.0" y="96.0">chainOfResponsibility.MyHtmlFilter</node>
+            <node x="0.0" y="465.0">chainOfResponsibility.FilterChainIV</node>
+            <node x="0.0" y="374.0">chainOfResponsibility.FilterChiainIII</node>
+            <node x="220.0" y="187.0">chainOfResponsibility.Filter</node>
+            <node x="0.0" y="96.0">chainOfResponsibility.MyFilterChain</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="chainOfResponsibility.SensitiveFilter" target="chainOfResponsibility.Filter">
+              <point x="0.0" y="-23.0" />
+              <point x="504.0" y="258.0" />
+              <point x="316.66666666666663" y="258.0" />
+              <point x="38.66666666666663" y="23.0" />
+            </edge>
+            <edge source="chainOfResponsibility.HtmlFilter" target="chainOfResponsibility.Filter">
+              <point x="0.0" y="-23.0" />
+              <point x="82.0" y="258.0" />
+              <point x="239.33333333333331" y="258.0" />
+              <point x="-38.666666666666686" y="23.0" />
+            </edge>
+            <edge source="chainOfResponsibility.MyFilterChain" target="chainOfResponsibility.MyFilter">
+              <point x="0.0" y="-23.0" />
+              <point x="100.0" y="71.0" />
+              <point x="297.3333333333333" y="71.0" />
+              <point x="-46.666666666666686" y="23.0" />
+            </edge>
+            <edge source="chainOfResponsibility.MySensitiveFilter" target="chainOfResponsibility.MyFilter">
+              <point x="0.0" y="-23.0" />
+              <point x="0.0" y="23.0" />
+            </edge>
+            <edge source="chainOfResponsibility.FilterChain3" target="chainOfResponsibility.Filter">
+              <point x="0.0" y="-23.0" />
+              <point x="0.0" y="23.0" />
+            </edge>
+            <edge source="chainOfResponsibility.MyHtmlFilter" target="chainOfResponsibility.MyFilter">
+              <point x="0.0" y="-23.0" />
+              <point x="582.0" y="71.0" />
+              <point x="390.66666666666663" y="71.0" />
+              <point x="46.66666666666663" y="23.0" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0" x="48.0" y="254.0" />
+          <SelectedNodes>
+            <node>chainOfResponsibility.FilterChain</node>
+          </SelectedNodes>
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/adapter">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>adapter</OriginalElement>
+          <nodes>
+            <node x="155.0" y="0.0">adapter.Duck</node>
+            <node x="0.0" y="374.0">adapter.DuckTestDriver</node>
+            <node x="24.0" y="187.0">adapter.Turkey</node>
+            <node x="220.0" y="96.0">adapter.MallarDuck</node>
+            <node x="0.0" y="283.0">adapter.WildTurkey</node>
+            <node x="0.0" y="96.0">adapter.TurkeyAdapter</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="adapter.MallarDuck" target="adapter.Duck">
+              <point x="0.0" y="-23.0" />
+              <point x="302.0" y="71.0" />
+              <point x="224.0" y="71.0" />
+              <point x="23.0" y="23.0" />
+            </edge>
+            <edge source="adapter.TurkeyAdapter" target="adapter.Duck">
+              <point x="0.0" y="-23.0" />
+              <point x="100.0" y="71.0" />
+              <point x="178.0" y="71.0" />
+              <point x="-23.0" y="23.0" />
+            </edge>
+            <edge source="adapter.WildTurkey" target="adapter.Turkey">
+              <point x="0.0" y="-23.0" />
+              <point x="0.0" y="23.0" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0" x="192.0" y="210.0" />
+          <SelectedNodes>
+            <node>adapter.TurkeyAdapter</node>
+          </SelectedNodes>
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/chainOfResponsibility/FilterChainII.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="576">
-          <caret line="20" column="23" selection-start-line="20" selection-start-column="23" selection-end-line="20" selection-end-column="23" />
+        <state relative-caret-position="283">
+          <caret line="32" column="27" selection-start-line="32" selection-start-column="27" selection-end-line="32" selection-end-column="27" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/chainOfResponsibility/FilterChiainIII.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="8" column="11" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/usersoftware/java/jdk1.8.0_221/src.zip!/java/util/Iterator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1656">
-          <caret line="69" column="6" selection-start-line="69" selection-start-column="6" selection-end-line="69" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/usersoftware/java/jdk1.8.0_221/src.zip!/java/util/LinkedList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="29916">
-          <caret line="882" column="30" selection-start-line="882" selection-start-column="23" selection-end-line="882" selection-end-column="30" />
-          <folding>
-            <element signature="e#26756#26757#0" expanded="true" />
-            <element signature="e#26803#26804#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/adapter/MallarDuck.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="10" column="26" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
-          <folding>
-            <element signature="e#98#99#0" expanded="true" />
-            <element signature="e#146#147#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/adapter/Turkey.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/adapter/Duck.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/chainOfResponsibility/v5/Filter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/usersoftware/java/jdk1.8.0_221/src.zip!/java/lang/NullPointerException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="631">
-          <caret line="68" column="11" selection-start-line="68" selection-start-column="11" selection-end-line="68" selection-end-column="11" />
-          <folding>
-            <element signature="e#1616#1617#0" expanded="true" />
-            <element signature="e#1640#1641#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/usersoftware/java/jdk1.8.0_221/src.zip!/java/lang/Exception.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="44" column="13" selection-start-line="44" selection-start-column="13" selection-end-line="44" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/usersoftware/java/jdk1.8.0_221/src.zip!/java/io/IOException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="38" column="29" selection-start-line="38" selection-start-column="29" selection-end-line="38" selection-end-column="29" />
+    <entry file="file://$PROJECT_DIR$/src/chainOfResponsibility/readme.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="7956">
+            <caret line="221" selection-start-line="221" selection-end-line="221" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
     <entry file="jar://D:/usersoftware/java/jdk1.8.0_221/src.zip!/java/io/FileNotFoundException.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="864">
+        <state relative-caret-position="1332">
           <caret line="62" column="11" selection-start-line="62" selection-start-column="11" selection-end-line="62" selection-end-column="11" />
           <folding>
             <element signature="e#1063#1064#0" expanded="true" />
@@ -591,37 +694,354 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/chainOfResponsibility/v5/FilterChianI.java">
+    <entry file="jar://D:/usersoftware/java/jdk1.8.0_221/src.zip!/java/io/IOException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="38" column="29" selection-start-line="38" selection-start-column="29" selection-end-line="38" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/usersoftware/java/jdk1.8.0_221/src.zip!/java/lang/Exception.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="756">
+          <caret line="44" column="13" selection-start-line="44" selection-start-column="13" selection-end-line="44" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/usersoftware/java/jdk1.8.0_221/src.zip!/java/lang/NullPointerException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1548">
+          <caret line="68" column="11" selection-start-line="68" selection-start-column="11" selection-end-line="68" selection-end-column="11" />
+          <folding>
+            <element signature="e#1616#1617#0" expanded="true" />
+            <element signature="e#1640#1641#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/adapter/Duck.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/observer/v3/Observer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
-          <caret line="5" column="2" lean-forward="true" selection-start-line="5" selection-start-column="2" selection-end-line="5" selection-end-column="2" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/chainOfResponsibility/v6/MySensitiveFilter.java">
+    <entry file="jar://D:/usersoftware/java/jdk1.8.0_221/src.zip!/java/lang/reflect/InvocationHandler.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="36">
-          <caret line="4" column="15" selection-start-line="4" selection-start-column="15" selection-end-line="4" selection-end-column="15" />
+          <caret line="40" column="17" selection-start-line="40" selection-start-column="17" selection-end-line="40" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/chainOfResponsibility/v6/FilterChainIV.java">
+    <entry file="file://$PROJECT_DIR$/src/observer/v3/NumEvent.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="684">
-          <caret line="53" column="59" selection-start-line="53" selection-start-column="59" selection-end-line="53" selection-end-column="59" />
+        <state relative-caret-position="175">
+          <caret line="5" column="24" lean-forward="true" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
+          <folding>
+            <element signature="e#135#136#0" expanded="true" />
+            <element signature="e#177#178#0" expanded="true" />
+            <element signature="e#210#211#0" expanded="true" />
+            <element signature="e#242#243#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/chainOfResponsibility/FilterChainIV.java">
+    <entry file="file://$PROJECT_DIR$/src/chainOfResponsibility/v5/FilterChianI.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="449">
-          <caret line="28" column="1" lean-forward="true" selection-start-line="28" selection-start-column="1" selection-end-line="28" selection-end-column="1" />
+        <state relative-caret-position="252">
+          <caret line="7" column="20" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/observer/v.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="2" column="14" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/observer/v3/Event.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="3" selection-start-line="3" selection-end-line="19" selection-end-column="5" />
+          <folding>
+            <element signature="e#132#133#0" expanded="true" />
+            <element signature="e#168#169#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/observer/v5/Event.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="17" column="18" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
+          <folding>
+            <element signature="e#136#137#0" expanded="true" />
+            <element signature="e#172#173#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/observer/v3/Source.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="15" column="16" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#525#526#0" expanded="true" />
+            <element signature="e#550#551#0" expanded="true" />
+            <element signature="e#580#581#0" expanded="true" />
+            <element signature="e#606#607#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/observer/v3/DirEvent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="5" column="11" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/observer/v5/Observer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="5" column="21" lean-forward="true" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/observer/v3/MAIN.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/observer/readme.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/usersoftware/java/jdk1.8.0_221/src.zip!/javax/swing/Action.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1569">
+          <caret line="213" column="17" selection-start-line="213" selection-start-column="17" selection-end-line="213" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/usersoftware/java/jdk1.8.0_221/javafx-src.zip!/javafx/beans/Observable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="188">
+          <caret line="50" column="17" selection-start-line="50" selection-start-column="17" selection-end-line="50" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/usersoftware/java/jdk1.8.0_221/javafx-src.zip!/javafx/beans/InvalidationListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="116">
+          <caret line="60" column="7" lean-forward="true" selection-start-line="60" selection-start-column="7" selection-end-line="60" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/observer/buttonTest/SwingObserverExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="3" column="18" lean-forward="true" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/observer/v5/NumEvent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="8" column="5" lean-forward="true" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/observer/v5/Subject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="139">
+          <caret line="39" selection-start-line="39" selection-end-line="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/observer/v5/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-739">
+          <caret line="21" column="30" lean-forward="true" selection-start-line="21" selection-start-column="30" selection-end-line="21" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/observer/v5/DirEvent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="9" column="5" lean-forward="true" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/observer/v4/Subject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="10" column="15" selection-start-line="10" selection-start-column="15" selection-end-line="10" selection-end-column="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/observer/v4/Observer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/observer/v4/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="89">
+          <caret line="10" column="27" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
+          <folding>
+            <element signature="e#203#1050#0" expanded="true" />
+            <element signature="e#1049#1050#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/observer/v7/Subject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="6" column="30" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/observer/v7/Observer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="4" column="38" selection-start-line="4" selection-start-column="38" selection-end-line="4" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/observer/v7/CurrentWeatherDisplay.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="274">
+          <caret line="25" column="5" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/observer/v7/WeatherData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#269#270#0" expanded="true" />
+            <element signature="e#314#315#0" expanded="true" />
+            <element signature="e#354#355#0" expanded="true" />
+            <element signature="e#388#389#0" expanded="true" />
+            <element signature="e#422#423#0" expanded="true" />
+            <element signature="e#453#454#0" expanded="true" />
+            <element signature="e#487#488#0" expanded="true" />
+            <element signature="e#518#519#0" expanded="true" />
+            <element signature="e#382#383#0" expanded="true" />
+            <element signature="e#412#413#0" expanded="true" />
+            <element signature="e#471#472#0" expanded="true" />
+            <element signature="e#487#488#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/observer/v7/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="6" column="14" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/usersoftware/java/jdk1.8.0_221/src.zip!/java/util/Observer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="211">
+          <caret line="34" column="17" selection-start-line="34" selection-start-column="17" selection-end-line="34" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/usersoftware/java/jdk1.8.0_221/src.zip!/java/util/Vector.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="645" column="31" lean-forward="true" selection-start-line="645" selection-start-column="31" selection-end-line="645" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/usersoftware/java/jdk1.8.0_221/src.zip!/java/util/Observable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="212" column="1" lean-forward="true" selection-start-line="212" selection-start-column="1" selection-end-line="212" selection-end-column="1" />
+          <folding>
+            <element signature="e#3747#3748#0" expanded="true" />
+            <element signature="e#3784#3785#0" expanded="true" />
+            <element signature="e#5937#5938#0" expanded="true" />
+            <element signature="e#5967#5968#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/observer/v6/CurrentWeatherDisplay.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="233">
+          <caret line="38" lean-forward="true" selection-end-line="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/observer/v6/OtherData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="4" column="34" selection-start-line="4" selection-start-column="34" selection-end-line="4" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/observer/v6/WeatherData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="89">
+          <caret line="51" column="16" lean-forward="true" selection-start-line="51" selection-start-column="16" selection-end-line="51" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#256#257#0" expanded="true" />
+            <element signature="e#287#288#0" expanded="true" />
+            <element signature="e#334#335#0" expanded="true" />
+            <element signature="e#374#375#0" expanded="true" />
+            <element signature="e#408#409#0" expanded="true" />
+            <element signature="e#439#440#0" expanded="true" />
+            <element signature="e#486#487#0" expanded="true" />
+            <element signature="e#526#527#0" expanded="true" />
+            <element signature="e#563#564#0" expanded="true" />
+            <element signature="e#597#598#0" expanded="true" />
+            <element signature="e#650#651#0" expanded="true" />
+            <element signature="e#696#697#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/observer/v6/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
         </state>
       </provider>
     </entry>

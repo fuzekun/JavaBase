@@ -2,40 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8002ee19-5862-4896-b8e4-a9201aa2acfd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../deisinModel/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../deisinModel/src/chainOfResponsibility/filterChain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../deisinModel/src/chainOfResponsibility/readme.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../designModel/src/proxy/V8.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../designModel/src/proxy/readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/BarrierTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/BoundBlockingQueMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/BoundedBlockingQueue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/BoundedBlockingQueue2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/Crawl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/Crawl2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/FizzBuzz.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/FizzBuzz3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/FizzBuzz4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/FizzBuzz5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/FizzBuzz6.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/FuzzBuzz2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/FuzzBuzzMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/H202.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/H2O.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/H2O3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/Philosophiers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/TestSynize.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/TrafficLight.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../chapterNow/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../chapterNow/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../chapterPre/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../chapterPre/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../chapterPre/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../chapterPre/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../chapterPre/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../chapterPre/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../chapterPre/src/main/java/Thread/TestDeadLock.java" beforeDir="false" afterPath="$PROJECT_DIR$/../chapterPre/src/main/java/Thread/TestDeadLock.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../chapterPre/src/main/java/web2/CommunicateSever.java" beforeDir="false" afterPath="$PROJECT_DIR$/../chapterPre/src/main/java/web2/CommunicateSever.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../chapterPre/target/classes/META-INF/java.kotlin_module" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../deisinModel/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../deisinModel/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../deisinModel/deisinModel.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../deisinModel/deisinModel.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../deisinModel/src/chainOfResponsibility/FilterChainII.java" beforeDir="false" afterPath="$PROJECT_DIR$/../deisinModel/src/chainOfResponsibility/FilterChainII.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../deisinModel/src/chainOfResponsibility/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/../deisinModel/src/chainOfResponsibility/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -119,8 +89,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/leetcode/FizzBuzz6.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="499">
-              <caret line="89" selection-start-line="89" selection-end-line="89" />
+            <state relative-caret-position="180">
+              <caret line="5" column="2" selection-start-line="5" selection-start-column="2" selection-end-line="5" selection-end-column="2" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -287,9 +257,10 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../deisinModel" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../designMdle" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -407,6 +378,8 @@
       <workItem from="1652521344889" duration="11243000" />
       <workItem from="1652576548234" duration="2065000" />
       <workItem from="1652598237744" duration="239000" />
+      <workItem from="1652669425687" duration="1802000" />
+      <workItem from="1652671829725" duration="185000" />
     </task>
     <task id="LOCAL-00001" summary="多线程新开一个目录喽">
       <created>1652256483807</created>
@@ -419,12 +392,12 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="49884000" />
+    <option name="totallyTimeSpent" value="51871000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1508" height="900" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14275862" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14689656" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -433,7 +406,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3190104" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3190104" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3997396" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -759,8 +732,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/leetcode/FizzBuzz6.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="499">
-          <caret line="89" selection-start-line="89" selection-end-line="89" />
+        <state relative-caret-position="180">
+          <caret line="5" column="2" selection-start-line="5" selection-start-column="2" selection-end-line="5" selection-end-column="2" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

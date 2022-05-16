@@ -25,7 +25,7 @@ public class FilterChainII {
     }
 }
 
-class FilterChain2{
+class FilterChain2 {
     List<Filter> filters = new ArrayList<>();
     public void add(Filter f) {
         filters.add(f);
