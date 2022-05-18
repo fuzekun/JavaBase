@@ -2,37 +2,64 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="19953653-5539-408a-8b19-708497c8919a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../deisinModel/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../deisinModel/src/chainOfResponsibility/filterChain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../deisinModel/src/chainOfResponsibility/readme.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../designModel/src/proxy/V8.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../designModel/src/proxy/readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../threads/src/main/java/leetcode/BarrierTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../threads/src/main/java/leetcode/BoundBlockingQueMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../threads/src/main/java/leetcode/BoundedBlockingQueue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../threads/src/main/java/leetcode/BoundedBlockingQueue2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../threads/src/main/java/leetcode/FizzBuzz.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../threads/src/main/java/leetcode/FizzBuzz3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../threads/src/main/java/leetcode/FizzBuzz4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../threads/src/main/java/leetcode/FizzBuzz5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../threads/src/main/java/leetcode/FizzBuzz6.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../threads/src/main/java/leetcode/FuzzBuzz2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../threads/src/main/java/leetcode/FuzzBuzzMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../threads/src/main/java/leetcode/H202.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../threads/src/main/java/leetcode/H2O.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../threads/src/main/java/leetcode/H2O3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../threads/src/main/java/leetcode/Philosophiers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../threads/src/main/java/leetcode/TestSynize.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../deisinModel/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../deisinModel/.idea/libraries/Maven__com_google_protobuf_protobuf_java_3_6_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../deisinModel/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../deisinModel/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../chapterPre/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../chapterPre/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../chapterPre/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../chapterPre/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../chapterPre/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../chapterPre/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../chapterPre/src/main/java/Thread/TestDeadLock.java" beforeDir="false" afterPath="$PROJECT_DIR$/../chapterPre/src/main/java/Thread/TestDeadLock.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../chapterPre/src/main/java/web2/CommunicateSever.java" beforeDir="false" afterPath="$PROJECT_DIR$/../chapterPre/src/main/java/web2/CommunicateSever.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../chapterPre/target/classes/META-INF/java.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../deisinModel/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../deisinModel/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../deisinModel/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../deisinModel/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../deisinModel/deisinModel.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../deisinModel/deisinModel.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../threads/src/main/java/leetcode/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/../threads/src/main/java/leetcode/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../deisinModel/out/production/deisinModel/adapter/Duck.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../deisinModel/out/production/deisinModel/adapter/DuckTestDriver.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../deisinModel/out/production/deisinModel/adapter/MallarDuck.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../deisinModel/out/production/deisinModel/adapter/Turkey.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../deisinModel/out/production/deisinModel/adapter/TurkeyAdapter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../deisinModel/out/production/deisinModel/adapter/WildTurkey.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../deisinModel/out/production/deisinModel/adapter/readme.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../deisinModel/src/adapter/Duck.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../deisinModel/src/adapter/DuckTestDriver.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../deisinModel/src/adapter/MallarDuck.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../deisinModel/src/adapter/Turkey.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../deisinModel/src/adapter/TurkeyAdapter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../deisinModel/src/adapter/WildTurkey.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../deisinModel/src/adapter/readme.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../deisinModel/src/chainOfResponsibility/FilterChainI.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../deisinModel/src/chainOfResponsibility/FilterChainII.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../deisinModel/src/chainOfResponsibility/FilterChainIV.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../deisinModel/src/chainOfResponsibility/FilterChiainIII.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../deisinModel/src/chainOfResponsibility/Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../deisinModel/src/chainOfResponsibility/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../deisinModel/src/chainOfResponsibility/v5/FilterChianI.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../deisinModel/src/observer/buttonTest/SwingObserverExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../deisinModel/src/observer/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../deisinModel/src/observer/v3/DirEvent.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../deisinModel/src/observer/v3/Event.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../deisinModel/src/observer/v3/MAIN.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../deisinModel/src/observer/v3/NumEvent.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../deisinModel/src/observer/v3/Observer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../deisinModel/src/observer/v3/Source.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../deisinModel/src/observer/v4/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../deisinModel/src/observer/v4/Observer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../deisinModel/src/observer/v4/Subject.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../deisinModel/src/observer/v5/DirEvent.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../deisinModel/src/observer/v5/Event.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../deisinModel/src/observer/v5/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../deisinModel/src/observer/v5/NumEvent.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../deisinModel/src/observer/v5/Observer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../deisinModel/src/observer/v5/Subject.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../deisinModel/src/observer/v6/CurrentWeatherDisplay.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../deisinModel/src/observer/v6/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../deisinModel/src/observer/v6/OtherData.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../deisinModel/src/observer/v6/WeatherData.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../deisinModel/src/observer/v7/CurrentWeatherDisplay.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../deisinModel/src/observer/v7/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../deisinModel/src/observer/v7/Observer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../deisinModel/src/observer/v7/Subject.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../deisinModel/src/observer/v7/WeatherData.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../deisinModel/src/single/readme" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../designModel/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../designModel/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../threads/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../threads/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -61,7 +88,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/proxy/ProxyTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="490">
@@ -73,11 +100,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/proxy/ProxyTest2.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="18" column="55" selection-start-line="18" selection-start-column="44" selection-end-line="18" selection-end-column="55" />
+            <state relative-caret-position="324">
+              <caret line="18" column="38" lean-forward="true" selection-start-line="18" selection-start-column="38" selection-end-line="18" selection-end-column="38" />
             </state>
           </provider>
         </entry>
@@ -85,7 +112,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/proxy/ProxyTest3.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="341">
+            <state relative-caret-position="1800">
               <caret line="56" column="17" selection-start-line="56" selection-start-column="17" selection-end-line="56" selection-end-column="17" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -97,7 +124,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="jar://D:/usersoftware/java/jdk1.8.0_221/jre/lib/rt.jar!/sun/reflect/NativeMethodAccessorImpl.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
+            <state relative-caret-position="324">
               <caret line="14" column="25" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
             </state>
           </provider>
@@ -259,6 +286,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -330,8 +359,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -485,6 +512,7 @@
       <workItem from="1652254496812" duration="9000" />
       <workItem from="1652410957817" duration="1665000" />
       <workItem from="1652519474309" duration="520000" />
+      <workItem from="1652863829689" duration="386000" />
     </task>
     <servers />
   </component>
@@ -521,13 +549,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="75844000" />
+    <option name="totallyTimeSpent" value="76230000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1508" height="900" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26413792" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2675862" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -745,13 +773,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="756">
-          <caret line="21" column="20" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/NetWork/ComuHost.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3204">
@@ -868,6 +889,40 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/proxy/ProxyTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="490">
+          <caret line="45" column="29" selection-start-line="45" selection-start-column="23" selection-end-line="45" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/proxy/ProxyTest2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="18" column="55" selection-start-line="18" selection-start-column="44" selection-end-line="18" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/proxy/ProxyTest3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1800">
+          <caret line="56" column="17" selection-start-line="56" selection-start-column="17" selection-end-line="56" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/usersoftware/java/jdk1.8.0_221/jre/lib/rt.jar!/sun/reflect/NativeMethodAccessorImpl.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="14" column="25" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
     <entry file="jar://D:/usersoftware/java/jdk1.8.0_221/jre/lib/rt.jar!/sun/reflect/MethodAccessorImpl.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
@@ -917,37 +972,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://D:/usersoftware/java/jdk1.8.0_221/jre/lib/rt.jar!/sun/reflect/NativeMethodAccessorImpl.class">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="25" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/proxy/ProxyTest2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="18" column="55" selection-start-line="18" selection-start-column="44" selection-end-line="18" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/proxy/ProxyTest3.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="341">
-          <caret line="56" column="17" selection-start-line="56" selection-start-column="17" selection-end-line="56" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/proxy/ProxyTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="490">
-          <caret line="45" column="29" selection-start-line="45" selection-start-column="23" selection-end-line="45" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="324">
+          <caret line="18" column="38" lean-forward="true" selection-start-line="18" selection-start-column="38" selection-end-line="18" selection-end-column="38" />
         </state>
       </provider>
     </entry>

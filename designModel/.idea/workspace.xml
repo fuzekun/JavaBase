@@ -2,37 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8deb3706-178b-48ae-b715-e05654459988" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../deisinModel/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../deisinModel/src/chainOfResponsibility/filterChain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../deisinModel/src/chainOfResponsibility/readme.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/proxy/V8.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/proxy/readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../threads/src/main/java/leetcode/BarrierTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../threads/src/main/java/leetcode/BoundBlockingQueMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../threads/src/main/java/leetcode/BoundedBlockingQueue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../threads/src/main/java/leetcode/BoundedBlockingQueue2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../threads/src/main/java/leetcode/FizzBuzz.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../threads/src/main/java/leetcode/FizzBuzz3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../threads/src/main/java/leetcode/FizzBuzz4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../threads/src/main/java/leetcode/FizzBuzz5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../threads/src/main/java/leetcode/FizzBuzz6.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../threads/src/main/java/leetcode/FuzzBuzz2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../threads/src/main/java/leetcode/FuzzBuzzMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../threads/src/main/java/leetcode/H202.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../threads/src/main/java/leetcode/H2O.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../threads/src/main/java/leetcode/H2O3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../threads/src/main/java/leetcode/Philosophiers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../threads/src/main/java/leetcode/TestSynize.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../chapterNow/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../chapterNow/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../chapterPre/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../chapterPre/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../chapterPre/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../chapterPre/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../chapterPre/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../chapterPre/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../chapterPre/src/main/java/Thread/TestDeadLock.java" beforeDir="false" afterPath="$PROJECT_DIR$/../chapterPre/src/main/java/Thread/TestDeadLock.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../chapterPre/src/main/java/web2/CommunicateSever.java" beforeDir="false" afterPath="$PROJECT_DIR$/../chapterPre/src/main/java/web2/CommunicateSever.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../chapterPre/target/classes/META-INF/java.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../deisinModel/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../deisinModel/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../deisinModel/deisinModel.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../deisinModel/deisinModel.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../threads/src/main/java/leetcode/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/../threads/src/main/java/leetcode/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../threads/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../threads/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -105,8 +75,6 @@
               <caret line="11" column="23" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#108#109#0" expanded="true" />
-                <element signature="e#152#153#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -210,8 +178,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -224,12 +192,6 @@
               <item name="designModel" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="designModel" type="b2602c69:ProjectViewProjectNode" />
-              <item name="designModel" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="proxy" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -237,9 +199,10 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../threads" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../deisinModel" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
@@ -306,16 +269,17 @@
       <workItem from="1650869986133" duration="651000" />
       <workItem from="1650873547592" duration="269000" />
       <workItem from="1652519115739" duration="910000" />
+      <workItem from="1652843005246" duration="24000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5427000" />
+    <option name="totallyTimeSpent" value="5451000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1508" height="900" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24827586" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25172412" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -375,6 +339,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/single/readme">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/proxy/readme.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor>
+            <caret column="6" selection-start-column="6" selection-end-column="6" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/adapter/WildTurkey.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="252">
@@ -404,23 +385,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
           <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/single/readme">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/proxy/readme.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor>
-            <caret column="6" selection-start-column="6" selection-end-column="6" />
-          </first_editor>
-          <second_editor />
         </state>
       </provider>
     </entry>
