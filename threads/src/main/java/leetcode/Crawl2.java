@@ -2,6 +2,7 @@ package leetcode;
 
 import java.sql.Array;
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.concurrent.ConcurrentHashMap;
@@ -9,16 +10,34 @@ import java.util.concurrent.atomic.AtomicInteger;
 import java.util.concurrent.locks.LockSupport;
 import java.util.concurrent.locks.ReentrantLock;
 
+/*
+*
+*
+*
+*   总结：1. 使用宽搜的模型，每一个结点的读取使用一个线程。
+*           最后队列为空并且线程为0的时候终止。
+*         2. 每一个线程消费一个url，生产他出结点的全部url
+* */
 public class Crawl2 {   // 已知URL集合，存储当前可见的所有URL。
 
+    HashMap<String, List<String>> G = new HashMap<>();
+
     private class HtmlParser {
-        public List<String> getUrls(String s) {
-            List<String>ans = new ArrayList<>();
-            return ans;
+        List<String>getUrls(String start) {
+            if (G.containsKey(start)) {
+                List<String>ans = G.get(start);
+                System.out.println("start = " + start + ", sz = "+ ans.size());
+                return ans;
+            }
+            return new ArrayList<>();
         }
     }
 
-    private ConcurrentHashMap<String, Boolean> totalUrls = new ConcurrentHashMap<>();
+    String hostName;
+
+    // 使用锁
+    private ReentrantLock mapLock = new ReentrantLock();
+    private HashMap<String, Boolean> totalUrls = new HashMap<>();
 
     // 结果URL链表及对应锁。
     private ReentrantLock resultLock = new ReentrantLock();
@@ -32,51 +51,36 @@ public class Crawl2 {   // 已知URL集合，存储当前可见的所有URL。
     private AtomicInteger choreCount = new AtomicInteger(0);
 
     public List<String> crawl(String startUrl, HtmlParser htmlParser) {
-        String hostName = extractHostName(startUrl); // 1. 获取主机名
 
-        this.totalUrls.put(startUrl, true);         //
-
+        // bfs开始
+        hostName = extractHostName(startUrl);
+        this.totalUrls.put(startUrl, true);
         addUrlToResult(startUrl);
         addUrlToCrawl(startUrl);
 
-        while (true) {
+        while(true) {
             String urlToCrawl = fetchUrlToCrawl();
             if (urlToCrawl != null) {
                 incrChore();
-                Chore chore = new Chore(this, hostName, htmlParser, urlToCrawl);
-                (new Thread(chore)).start();
+                new Thread(new Chore(this, htmlParser, urlToCrawl)).start();
             } else {
-                if (this.choreCount.get() == 0) {
+                if (this.choreCount.get() == 0)
                     break;
-                }
-                LockSupport.parkNanos(1L);
             }
+            LockSupport.parkNanos(1L); // 开启新的线程之前，先睡眠1ms，防止竞争太激烈导致的线程完蛋
         }
-
-        return fetchResultUrls();
+        return this.fetchResult();
     }
 
-    private String extractHostName(String url) {
-        // HTTP protocol only.
-        String processedUrl = url.substring(7);
 
-        int index = processedUrl.indexOf("/");
-        if (index == -1) {
-            return processedUrl;
-        } else {
-            return processedUrl.substring(0, index);
-        }
-    }
 
     private class Chore implements Runnable {
         private Crawl2 solution;
-        private String hostName;
         private HtmlParser htmlParser;
         private String urlToCrawl;
 
-        public Chore(Crawl2 solution, String hostName, HtmlParser htmlParser, String urlToCrawl) {
+        public Chore(Crawl2 solution, HtmlParser htmlParser, String urlToCrawl) {
             this.solution = solution;
-            this.hostName = hostName;
             this.htmlParser = htmlParser;
             this.urlToCrawl = urlToCrawl;
         }
@@ -96,24 +100,32 @@ public class Crawl2 {   // 已知URL集合，存储当前可见的所有URL。
             }
 
             for (String url : crawledUrls) {
-                // 如果该URL在已知的URL集合中已存在，那么不需要再重复抓取。
-                if (this.solution.totalUrls.containsKey(url)) {
-                    continue;
-                }
+//                if (this.solution.fechMapUrls(url)) {
+//                    continue;
+//                }
+//                this.solution.putToMap(url);
 
-                this.solution.totalUrls.put(url, true);
+                if (this.solution.fechMapUrls(url)) continue;
+                this.solution.putToMap(url);
 
-                String crawlHostName = this.solution.extractHostName(url);
-                if (!crawlHostName.equals(this.hostName)) {
-                    // 如果抓取的URL对应的HostName同Start URL对应的HostName不同，那么直接丢弃该URL。
-                    continue;
-                }
+                // 如果当前域名不等于，那么就算后面有也不能算了。
+                String hostName = this.solution.extractHostName(url);
+                if (!hostName.equals(this.solution.hostName)) continue;
 
-                // 将该URL添加至结果链表。
                 this.solution.addUrlToResult(url);
-                // 将该URL添加至待抓取链表，以便进行下一跳抓取。
                 this.solution.addUrlToCrawl(url);
             }
+        }
+    }
+
+    private String extractHostName(String url) {
+        String processedUrl = url.substring(7);
+
+        int index = processedUrl.indexOf("/");
+        if (index == -1) {
+            return processedUrl;
+        } else {
+            return processedUrl.substring(0, index);
         }
     }
 
@@ -121,15 +133,6 @@ public class Crawl2 {   // 已知URL集合，存储当前可见的所有URL。
         this.resultLock.lock();
         try {
             this.resultUrls.add(url);
-        } finally {
-            this.resultLock.unlock();
-        }
-    }
-
-    private List<String> fetchResultUrls() {
-        this.resultLock.lock();
-        try {
-            return this.resultUrls;
         } finally {
             this.resultLock.unlock();
         }
@@ -144,12 +147,39 @@ public class Crawl2 {   // 已知URL集合，存储当前可见的所有URL。
         }
     }
 
+    private List<String> fetchResult() {
+        this.resultLock.lock();
+        try {
+            return this.resultUrls;
+        } finally {
+            this.resultLock.unlock();
+        }
+    }
+
     private String fetchUrlToCrawl() {
         this.crawlLock.lock();
         try {
             return this.urlsToCrawl.poll();
-        } finally {
+        }finally {
             this.crawlLock.unlock();
+        }
+    }
+
+    private boolean fechMapUrls(String url) {
+        mapLock.lock();
+        try {
+            return totalUrls.containsKey(url);
+        } finally {
+            mapLock.unlock();
+        }
+    }
+
+    private void putToMap(String url) {
+        mapLock.lock();
+        try {
+            totalUrls.put(url, true);
+        } finally {
+            mapLock.unlock();
         }
     }
 
@@ -159,6 +189,43 @@ public class Crawl2 {   // 已知URL集合，存储当前可见的所有URL。
 
     private void decrChore() {
         this.choreCount.decrementAndGet();
+    }
+
+    public void build(int[][] edges) {
+        String[] s = {"http://news.yahoo.com",
+                "http://news.yahoo.com/news",
+                "http://news.yahoo.com/news/topics/",
+                "http://news.google.com"};
+
+
+        for (int[] e : edges) {
+            String u = s[e[0]];
+            String v = s[e[1]];
+            if (G.containsKey(u)) {
+                G.get(u).add(v);
+            } else {
+                List<String> l = new ArrayList<>();
+                l.add(v);
+                G.put(u, l);
+            }
+        }
+//        for (String t : G.get("http://news.yahoo.com/news/topics/")) {
+//            System.out.println(t);
+//        }
+    }
+
+    public static void main(String[] args) {
+        Crawl2 c = new Crawl2();
+        String input = " [[0,2],[2,1],[3,2],[3,1],[3,0],[2,0]]";
+        input = input.replace("[", "{");
+        input = input.replace("]", "}");
+        System.out.println(input);
+        int[][] edges =   {{0,2},{2,1},{3,2},{3,1},{3,0},{2,0}};
+        c.build(edges);
+        List<String> ans = c.crawl("http://news.yahoo.com/news/topics/", c.new HtmlParser());
+        for (String s: ans) {
+            System.out.println(s);
+        }
     }
 
 }

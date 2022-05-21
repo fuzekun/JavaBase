@@ -7,8 +7,8 @@ import java.util.function.IntConsumer;
 public class FizzBuzz4 extends FizzBuzz{
     private int n;
     private ReentrantLock lock = new ReentrantLock();
-    int state = 0;
     private Condition condition = lock.newCondition();
+    int state = 0;
 
     public FizzBuzz4(int n) {
         super(n);

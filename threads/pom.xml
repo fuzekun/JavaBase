@@ -7,6 +7,17 @@
     <groupId>com.fuzekun</groupId>
     <artifactId>threads</artifactId>
     <version>1.0-SNAPSHOT</version>
+    <properties>
+        <maven-copiler-source>1.8</maven-copiler-source>
+        <maven-compiler-target>1.8</maven-compiler-target>
+    </properties>
 
+    <dependencies>
+        <dependency>
+            <groupId>cglib</groupId>
+            <artifactId>cglib</artifactId>
+            <version>3.2.12</version>
+        </dependency>
+    </dependencies>
 
 </project>
