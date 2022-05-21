@@ -106,3 +106,28 @@ startUrl = "http://news.google.com"
 1 <= urls.length <= 1000
 1 <= urls[i].length <= 300
 startUrl 是 urls 中的一个。
+
+
+
+## fizzbuzz
+1.手动锁的实现逻辑，方式1
+
+使用互斥访问的state作为控制变量。
+使用number进行上锁
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

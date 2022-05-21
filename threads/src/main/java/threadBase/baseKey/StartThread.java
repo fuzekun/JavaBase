@@ -14,7 +14,11 @@ import java.util.concurrent.atomic.AtomicInteger;
 * 1. implement
 * 2. extends
 * 3. FutureT
-* 4.
+* 4. 线程方式
+*
+* 其中FutureTask实现了Runnable和Future接口可以算作Runnble的一种实现方式。
+* 线程池可以算作开启线程的新的一种方式。
+*
 * */
 public class StartThread {
     private static final int MAXN = 100000000;
