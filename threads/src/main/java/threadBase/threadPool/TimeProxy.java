@@ -32,7 +32,7 @@ public class TimeProxy implements MethodInterceptor {
         Object ans = methodProxy.invokeSuper(o, objects);   // 调用o的方法
         long endTime = System.currentTimeMillis();
         // 指定为某个方法生成代理怎么指定呢？
-        System.out.println(method.getName() + "的运行时间为:" + (endTime - startTime) + "ms");
+        System.out.println("--------" + method.getName() + "的运行时间为:" + (endTime - startTime) + "ms" + "-------------");
         return ans;
     }
 }

@@ -61,6 +61,15 @@ public class SortUtils {
         return arr;
     }
 
+    /*'
+    * 判断两个数组是否相等
+    * */
+    public static boolean check(int[] arr1, int[] arr2) {
+        for (int i = 0; i < arr1.length; i++) {
+            if (arr1[i] != arr2[i]) return false;
+        }
+        return true;
+    }
 
     public static void main(String[] args) {
         int n = 10;

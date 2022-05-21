@@ -3,6 +3,7 @@ package threadBase.threadPool;
 import javafx.util.Pair;
 import net.sf.cglib.proxy.Enhancer;
 
+import javax.xml.transform.Source;
 import java.lang.reflect.Array;
 import java.util.*;
 import java.util.concurrent.*;
@@ -45,46 +46,12 @@ public class SortThread {
         return ans;
     }
 
+
     /*
-    *
-    * 不进行复制粘贴，直接使用原数组进行排序
+    *   使用分治进行，每次分成两个线程进行排序，然后吧排好序的进行合并。
+    * 这里进行数组的划分，进行分支。
     * */
-    int[] tmp;
-    public void sortByAuto2(int[] arr, int l, int r, int len) {
-        if (r - l + 1 <= len) {
-            Arrays.sort(arr, l, r + 1);
-            return;
-        }
-        int mid = (l + r) >> 1;
-        CountDownLatch latch = new CountDownLatch(2);
-        new Thread(()->{
-            sortByAuto2(arr, l, mid, len);
-            latch.countDown();
-        }).start();
-        new Thread(()->{
-            sortByAuto2(arr, mid + 1, r, len);
-            latch.countDown();
-        }).start();
-
-        try{
-            latch.await();
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
-        int i = l, j = l, k = mid + 1;
-        while(j <= mid && k <= r) {
-            tmp[i++] = arr[j] <= arr[k] ? arr[j++] : arr[k++];
-        }
-        while(j <= mid) {
-            tmp[i++] = arr[j++];
-        }
-        while(k <= r) {
-            tmp[i++] = arr[k++];
-        }
-        for (i = l; i <= r; i++) arr[i] = tmp[i];
-    }
-
-    public int[] sortByAuto(int[] arr, int l, int r, int len) throws Exception{
+    private int[] sortByAuto(int[] arr, int l, int r, int len) throws Exception{
         if (r - l + 1 <= len) {
             int []tmp = Arrays.copyOfRange(arr, l, r + 1);
             Arrays.sort(tmp);
@@ -119,6 +86,43 @@ public class SortThread {
         }
         return ans;
     }
+    /*
+     *
+     * 不进行复制粘贴，直接使用原数组进行排序
+     * */
+    private void sortByAuto2(int[] arr, int l, int r, int len, int[] tmp) {
+        if (r - l + 1 <= len) {
+            Arrays.sort(arr, l, r + 1);
+            return;
+        }
+        int mid = (l + r) >> 1;
+        CountDownLatch latch = new CountDownLatch(2);
+        new Thread(()->{
+            sortByAuto2(arr, l, mid, len, tmp);
+            latch.countDown();
+        }).start();
+        new Thread(()->{
+            sortByAuto2(arr, mid + 1, r, len, tmp);
+            latch.countDown();
+        }).start();
+
+        try{
+            latch.await();
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+        int i = l, j = l, k = mid + 1;
+        while(j <= mid && k <= r) {
+            tmp[i++] = arr[j] <= arr[k] ? arr[j++] : arr[k++];
+        }
+        while(j <= mid) {
+            tmp[i++] = arr[j++];
+        }
+        while(k <= r) {
+            tmp[i++] = arr[k++];
+        }
+        for (i = l; i <= r; i++) arr[i] = tmp[i];
+    }
 
         /*
     *
@@ -126,7 +130,7 @@ public class SortThread {
     * 是一个错误的方法不知道怎么实现同步
     * */
     @Deprecated                 // 错误方法，别用了
-    public int[] sortByAuto3(int[] arr, int l, int r, int len) {
+    private int[] sortByAuto3(int[] arr, int l, int r, int len) {
 
 
         // 1. 递归基
@@ -163,7 +167,40 @@ public class SortThread {
         return merge;
     }
 
-    public int[] collect(int[][]sortedArr, int size) {
+
+
+    /*
+    *
+    *   使用线程池进行数组的排序
+    * */
+    private void sortByPool(int[] arr, int l, int r, int len, int[] tmp) {
+        if (r - l <= len) {
+            Arrays.sort(arr, l, r + 1);
+            return ;
+        }
+        // 1. 进行划分
+        int mid = (l + r) >> 1;
+        Future<?> f1 = pool.submit(() -> sortByPool(arr, l, mid, len, tmp));
+        Future<?> f2 = pool.submit(()-> sortByPool(arr, mid + 1, r, len, tmp));
+        // 2. 等待两个线程执行完成
+        try {
+            f1.get();
+            f2.get();
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+        // 3. 进行合并即可。
+        int i = l, j = l, k = mid + 1;
+        while(j <= mid && k <= r) tmp[i++] = arr[j] <= arr[k] ? arr[j++] : arr[k++];
+        while(j <= mid) tmp[i++] = arr[j++];
+        while(k <= r) tmp[i++] = arr[k++];
+        for (i = l; i <= r; i++) arr[i] = tmp[i];
+    }
+    /*
+    *
+    *   使用手动线程进行数组的排序
+    * */
+    private int[] collect(int[][]sortedArr, int size) {
 
         class Node implements Comparable<Node>{
             int num;
@@ -202,19 +239,6 @@ public class SortThread {
         }
         return ans;
     }
-
-    /*
-    *
-    *   使用线程池进行数组的排序
-    * */
-    public void threadSortByPool(int[] arr, int l, int r) {
-
-    }
-    /*
-    *
-    *   使用手动线程进行数组的排序
-    * */
-
     public int[] threadSortByFutT(int[] arr) {
         int n = 8;      // 线程数量, 小于等于数组的长度。
         int[][] divArr = div(arr, n);
@@ -241,60 +265,117 @@ public class SortThread {
         return ans;
     }
 
-    public int[] sortBySingle(int[] arr) {
+    public void sortBySingle(int[] arr) {
         Arrays.sort(arr);
-        return arr;
     }
+    /*
+    *
+    * 为了方便代理的使用，
+    * 这里写一个方法调用被代理对象的方法，
+    * 然后执行的时间就是被代理对象的执行时间
+    * */
+    public int[] sortByAuto(SortThread s, int[] arr, int tn) {
+        int n = arr.length;
+        int len = n / tn;           // 每个线程执需要排序的长度
+        int[] ans = null;
+        try {
+            ans = s.sortByAuto(arr, 0, n - 1, len); // 调用s的,防止递归调用打印。
+        } catch (Exception e) {
+            e.printStackTrace();
+        }finally {
+            return ans;
+        }
+    }
+
+    public void sortByAuto2(SortThread s, int[] arr, int tn) {
+        int n = arr.length;
+        int len = n / tn;
+        int[] tmp =  new int[n];
+        s.sortByAuto2(arr, 0, n - 1, len, tmp);     // 调用s的
+    }
+
+    public void sortByPool(SortThread s, int[] arr, int tn) {
+        int n = arr.length;
+        int len = n / tn;
+        int[] tmp = new int[n];
+        s.sortByPool(arr, 0, n - 1, len, tmp); // 调用s的
+        s.pool.shutdown();
+    }
+
 
     // 进行辅助函数的测试
     public static void test() {
         int n = 16, m = 100;
         int[] arr = SortUtils.getArr(16, 100);
+        int[] sortedArr = Arrays.copyOf(arr, n);
+        Arrays.sort(sortedArr);
         SortThread s = new SortThread();
+        SortThread st = (SortThread) new TimeProxy().getProxy(SortThread.class);
+        System.out.println("原数组为:");
         SortUtils.printArr(arr);
+        System.out.println("排好序的数组为:");
+        SortUtils.printArr(sortedArr);
+
+        // 测试划分是否正确
+        System.out.println("划分之后的数组为:");
         int[][] divArr = s.div(arr, 3);
         SortUtils.printArr(divArr);
-        int tn = 4;                      // 开启线程的个数
-        int len = n / tn ;               // 每个线程处理的数组的大小
-        try{
-            int[] ans = s.sortByAuto(arr, 0, n - 1, len);
-            SortUtils.printArr(ans);
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
 
-        s.tmp = new int[n];
-        s.sortByAuto3(arr, 0, n - 1, len);
-        SortUtils.printArr(arr);
+        // 进行sortByauto的正确性测试
+        int tn = 8;
+        int[] ans1 = st.sortByAuto(s, arr, tn);
+        SortUtils.printArr(ans1);
+        System.out.println("sortByAuto是否正确：" + SortUtils.check(sortedArr, ans1));
+
+
+        // 进行sortByAuto2的正确性测试
+        tn = 8;
+        int[] ans2 = Arrays.copyOf(arr, n);
+        st.sortByAuto2(s, ans2, tn);
+        SortUtils.printArr(ans2);
+        System.out.println("sortByAuto2是否正确:" + SortUtils.check(sortedArr, ans2));
+
+        // 进行线程池排序的测试
+        tn = 8;
+        int[] ans3 = Arrays.copyOf(arr, n);
+        st.sortByPool(s, ans3, tn);
+        SortUtils.printArr(ans3);
+        System.out.println("线程池排序是否正确:" + SortUtils.check(sortedArr, ans3));
+
+    }
+    public static void runMethod() {
+        int n = (int)1e8, m = (int)1e9;
+        int[] arr = SortUtils.getArr(n, m);       // 生成数组
+        SortThread s = new SortThread();
+        SortThread st = (SortThread) new TimeProxy().getProxy(SortThread.class);
+
+        int[] sortArr = Arrays.copyOf(arr, n);
+        st.sortBySingle(sortArr);                    // 进行一次标准排序，判断正误 + 统计时间
+
+        // 测试a手动划分，然后使用堆进行合并的运行时间，这里使用了代理进行时间统计。
+        int[] ans1 = st.threadSortByFutT(arr);     // 这里不对arr1打乱顺序
+        System.out.println("threadSortByFutT答案是否正确:" + SortUtils.check(sortArr, ans1));
+
+        //  测试方法1的正确性和运行时间
+        int tn = 8;                      // 开启线程的个数
+        int[] ans = st.sortByAuto(s, arr, tn);   // 不对arr改变顺序
+        System.out.println("sortByAuto是否正确:" + SortUtils.check(ans, sortArr));
+
+        // 测试方法2的正确性和运行的时间
+        int[] ans2 = Arrays.copyOf(arr, n);       // 不改变原来的数组
+        tn = 8;
+        st.sortByAuto2(s, ans2, tn);
+        System.out.println("sortByAuto2是否正确:" + SortUtils.check(ans2, sortArr));
+
+        // 测试方法3的正确定和运行时间
+        int[] ans3 = Arrays.copyOf(arr, n);
+        tn = 8;
+        st.sortByPool(s, ans3, tn);
+        System.out.println("线程池的最大大小为;" + ((ThreadPoolExecutor)s.pool).getLargestPoolSize());
+        System.out.println("sortByPool是否正确:" + SortUtils.check(ans3, sortArr));
     }
     public static void main(String[] args) {
 //        test();
-
-        int n = (int)1e8, m = (int)100;
-        int[] arr1 = SortUtils.getArr(n, m);       // 生成数组
-        int[] arr2 = SortUtils.getArr(n, m);
-
-        SortThread s = new SortThread();
-        SortThread st = (SortThread) new TimeProxy().getProxy(SortThread.class);
-        int[] ans1 = st.threadSortByFutT(arr1);
-        int [] ans2 = st.sortBySingle(arr2);
-        int tn = 8;                      // 开启线程的个数
-        int len = n / tn ;               // 每个线程处理的数组的大小
-        try{
-            long startTime = System.currentTimeMillis();
-            int[] ans = s.sortByAuto(arr1, 0, n - 1, len);
-            long endTime = System.currentTimeMillis();
-            System.out.println("sortByAuto运行时间为: " + (endTime - startTime) + "ms");
-//            SortUtils.printArr(ans);
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
-        s.tmp = new int[n];
-        long startTime = System.currentTimeMillis();
-        s.sortByAuto2(arr1, 0, n - 1, len);
-        long endTime = System.currentTimeMillis();
-        System.out.println("sortByAuto2运行时间:" + (endTime - startTime) + "ms");
-//        SortUtils.printArr(arr1);
-
+        runMethod();
     }
 }

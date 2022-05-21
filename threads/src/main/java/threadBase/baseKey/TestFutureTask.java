@@ -19,7 +19,7 @@ public class TestFutureTask {
 
     public static void main(String[] args) {
         FutureTask<Integer>f = new FutureTask<Integer>(new Callable<Integer>() {
-            @Override
+
             public Integer call() throws Exception {
                 return null;
             }
