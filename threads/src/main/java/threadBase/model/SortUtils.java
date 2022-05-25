@@ -1,4 +1,4 @@
-package threadBase.threadPool;
+package threadBase.model;
 
 import java.util.Random;
 

@@ -1,10 +1,9 @@
-package threadBase.threadPool;
+package threadBase.model;
 
 import net.sf.cglib.proxy.Enhancer;
 import net.sf.cglib.proxy.MethodInterceptor;
 import net.sf.cglib.proxy.MethodProxy;
 
-import java.io.ObjectInput;
 import java.lang.reflect.Method;
 
 /**
@@ -18,6 +17,9 @@ public class TimeProxy implements MethodInterceptor {
     *
     *   使用cglib代理计算使用线程与不适用线程排序所用的时间
     * 无法把final方法重写
+    * 这个方法可以实现任意类的时间统计，很方便的面向切面编程
+    * 还可以根据具体的类生成单独的，那种建议使用内部的()->{}方法编写
+    * 拦截器。
     * */
     private Enhancer enhancer = new Enhancer();
 

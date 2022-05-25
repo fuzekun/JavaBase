@@ -1,11 +1,8 @@
-package threadBase.threadPool;
+package threadBase.model;
 
-import javafx.util.Pair;
-import net.sf.cglib.proxy.Enhancer;
-
-import javax.xml.transform.Source;
-import java.lang.reflect.Array;
-import java.util.*;
+import java.util.Arrays;
+import java.util.PriorityQueue;
+import java.util.Queue;
 import java.util.concurrent.*;
 import java.util.concurrent.atomic.AtomicInteger;
 
@@ -357,19 +354,19 @@ public class SortThread {
         System.out.println("threadSortByFutT答案是否正确:" + SortUtils.check(sortArr, ans1));
 
         //  测试方法1的正确性和运行时间
-        int tn = 8;                      // 开启线程的个数
+        int tn = 16;                      // 开启线程的个数
         int[] ans = st.sortByAuto(s, arr, tn);   // 不对arr改变顺序
         System.out.println("sortByAuto是否正确:" + SortUtils.check(ans, sortArr));
 
         // 测试方法2的正确性和运行的时间
         int[] ans2 = Arrays.copyOf(arr, n);       // 不改变原来的数组
-        tn = 8;
+        tn = 16;
         st.sortByAuto2(s, ans2, tn);
         System.out.println("sortByAuto2是否正确:" + SortUtils.check(ans2, sortArr));
 
         // 测试方法3的正确定和运行时间
         int[] ans3 = Arrays.copyOf(arr, n);
-        tn = 8;
+        tn = 16;
         st.sortByPool(s, ans3, tn);
         System.out.println("线程池的最大大小为;" + ((ThreadPoolExecutor)s.pool).getLargestPoolSize());
         System.out.println("sortByPool是否正确:" + SortUtils.check(ans3, sortArr));
