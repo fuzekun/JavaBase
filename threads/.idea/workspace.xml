@@ -2,27 +2,62 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8002ee19-5862-4896-b8e4-a9201aa2acfd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../deisinModel/src/main/java/single/Doubl_Lock_Check.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/threadBase/changeState/StopThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/threadBase/changeState/StopThread2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/threadBase/changeState/readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/threadBase/model/PC.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/threadBase/safe/Happen_Before.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/threadBase/safe/readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/threadBase/unsafe/AtoIntegerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/threadBase/unsafe/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JVM_expriment/src/main/java/first_memory/memeryLeak/TestHashLeak.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JVM_expriment/src/main/java/first_memory/memeryLeak/readme.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../deisinModel/src/main/java/command/readme.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../deisinModel/src/main/java/command/v1/Command.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../deisinModel/src/main/java/command/v1/LightOnCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../deisinModel/src/main/java/command/v1/MyLight.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../deisinModel/src/main/java/command/v1/SimpleRemoteControl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/IPConfirm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/PrintOuAndJi5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/PrintOuJi2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/PrintOuJi3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/PrintOuJi4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/PrintOuJiInt.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/PrintOuji6.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/PrintOujiTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/threadBase/baseKey/BlockingQueueTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/threadBase/baseKey/TestPark.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/threadBase/model/GuardedObject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/threadBase/model/MesQ.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/threadBase/model/MessageQue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/threadBase/model/MessageQue2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/threadBase/model/Philosopher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/threadBase/model/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/threadBase/threadPool/MyPool.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/threadBase/threadPool/MyThreadPool.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/threadBase/unsafe/Amount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/threadBase/unsafe/LongAdderTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/threadBase/unsafe/MyAtoInteger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/threadBase/unsafe/SafeAccount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/threadBase/unsafe/SaleTickey.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/threadBase/unsafe/SynchorenizedAccount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/threadBase/unsafe/TestAmount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/threadBase/unsafe/TestAtomicArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/threadBase/unsafe/TestUnsafe.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/threadBase/unsafe/TestUpdate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/threadBase/unsafe/UnsafeAccecor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/threadBase/unsafe/UnsafeAmount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/threadBase/unsafe/VectorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/threads.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JVM_expriment/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JVM_expriment/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JVM_expriment/target/classes/exeSystem/Test$Fa.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JVM_expriment/target/classes/exeSystem/Test$Fa.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JVM_expriment/target/classes/exeSystem/Test$GrandFa.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JVM_expriment/target/classes/exeSystem/Test$GrandFa.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JVM_expriment/target/classes/exeSystem/Test$SSon.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JVM_expriment/target/classes/exeSystem/Test$SSon.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JVM_expriment/target/classes/exeSystem/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JVM_expriment/target/classes/exeSystem/Test.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../deisinModel/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../deisinModel/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../deisinModel/target/classes/clone/StirngBuilderClone$Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/../deisinModel/target/classes/clone/StirngBuilderClone$Person.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../deisinModel/target/classes/clone/StirngBuilderClone.class" beforeDir="false" afterPath="$PROJECT_DIR$/../deisinModel/target/classes/clone/StirngBuilderClone.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../deisinModel/target/classes/clone/StringClone$Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/../deisinModel/target/classes/clone/StringClone$Person.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../deisinModel/target/classes/clone/StringClone.class" beforeDir="false" afterPath="$PROJECT_DIR$/../deisinModel/target/classes/clone/StringClone.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/TrafficLight.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/TrafficLight.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/threadBase/model/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/threadBase/model/readme.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/threadBase/threadPool/SortThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/threadBase/model/SortThread.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/threadBase/threadPool/SortUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/threadBase/model/SortUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/threadBase/threadPool/TimeProxy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/threadBase/model/TimeProxy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/Crawl4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/Crawl4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/Print0AndJi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/Print0AndJi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/threadBase/model/TimeProxy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/threadBase/model/TimeProxy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/threadBase/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/threadBase/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/threadBase/unsafe/AtoIntegerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/threadBase/unsafe/AtoIntegerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/threadBase/unsafe/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/threadBase/unsafe/readme.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/leetcode/AutomaticTest$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/leetcode/AutomaticTest$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/leetcode/AutomaticTest$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/leetcode/AutomaticTest$2.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/leetcode/AutomaticTest$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/leetcode/AutomaticTest$3.class" afterDir="false" />
@@ -45,7 +80,9 @@
       <change beforePath="$PROJECT_DIR$/target/classes/leetcode/FuzzBuzzMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/leetcode/FuzzBuzzMain.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/leetcode/H2O.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/leetcode/H2O.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/leetcode/Philosophiers.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/leetcode/Philosophiers.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/leetcode/Print0AndJi$ZeroEvenOdd.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/leetcode/Print0AndJi$ZeroEvenOdd.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/leetcode/Print0AndJi$IntConsumer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/leetcode/Print0AndJi$ZeroEvenOdd.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/leetcode/Print0AndJi.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/leetcode/Print0AndJi.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/leetcode/ProduceAndConsume$1$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/leetcode/ProduceAndConsume$1$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/leetcode/ProduceAndConsume$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/leetcode/ProduceAndConsume$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/leetcode/ProduceAndConsume$2$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/leetcode/ProduceAndConsume$2$1.class" afterDir="false" />
@@ -70,69 +107,25 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/threadBase/changeState/readme.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="108">
-                <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/threadBase/changeState/StopThread2.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="936">
-              <caret line="26" column="52" selection-start-line="26" selection-start-column="52" selection-end-line="26" selection-end-column="52" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/threadBase/safe/readme.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="216">
-                <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/threadBase/safe/Happen_Before.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="355">
-              <caret line="24" column="29" selection-start-line="24" selection-start-column="29" selection-end-line="24" selection-end-column="29" />
-              <folding>
-                <element signature="e#835#836#0" expanded="true" />
-                <element signature="e#853#854#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/threadBase/unsafe/readme.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="288">
-                <caret line="8" selection-start-line="8" selection-end-line="8" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/threadBase/unsafe/AtoIntegerTest.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/threadBase/threadPool/MyThreadPool.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+            <state relative-caret-position="238">
+              <caret line="43" column="13" lean-forward="true" selection-start-line="43" selection-start-column="13" selection-end-line="43" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1486#1487#0" expanded="true" />
+                <element signature="e#1523#1524#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/threadBase/threadPool/MyPool.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-2952">
+              <caret line="21" column="3" lean-forward="true" selection-start-line="21" selection-start-column="3" selection-end-line="21" selection-end-column="3" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -141,43 +134,74 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk-11.0.15.1/lib/src.zip!/java.base/java/util/concurrent/atomic/AtomicInteger.java">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_221/src.zip!/java/util/concurrent/FutureTask.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="246">
-              <caret line="469" column="21" selection-start-line="469" selection-start-column="21" selection-end-line="469" selection-end-column="21" />
+            <state relative-caret-position="3528">
+              <caret line="131" column="23" selection-start-line="131" selection-start-column="23" selection-end-line="131" selection-end-column="23" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/threadBase/threadPool/ThreadPoolToCaculate.java">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_221/src.zip!/java/util/concurrent/Callable.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1188">
-              <caret line="35" column="12" selection-start-line="35" selection-start-column="12" selection-end-line="35" selection-end-column="12" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="828">
+              <caret line="56" column="13" selection-start-line="56" selection-start-column="13" selection-end-line="56" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://D:/usersoftware/java/jdk1.8.0_221/src.zip!/java/util/concurrent/Future.java">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_221/src.zip!/java/lang/FunctionalInterface.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2232">
-              <caret line="95" column="17" selection-start-line="95" selection-start-column="17" selection-end-line="95" selection-end-column="17" />
+            <state relative-caret-position="1548">
+              <caret line="66" column="23" selection-start-line="66" selection-start-column="23" selection-end-line="66" selection-end-column="23" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/leetcode/readme.md">
+        <entry file="file://$PROJECT_DIR$/src/main/java/threadBase/threadPool/readme.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="4140">
-                <caret line="115" column="12" selection-start-line="115" selection-start-column="12" selection-end-line="115" selection-end-column="12" />
-              </first_editor>
+              <first_editor />
               <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1080">
+              <caret line="30" column="21" selection-start-line="30" selection-start-column="21" selection-end-line="30" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_221/src.zip!/java/sql/Connection.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2124">
+              <caret line="83" column="17" selection-start-line="83" selection-start-column="17" selection-end-line="83" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/leetcode/PrintOuAndJi5.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="540">
+              <caret line="17" selection-start-line="17" selection-end-line="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/threadBase/model/TimeProxy.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="756">
+              <caret line="25" column="18" selection-start-line="25" selection-start-column="18" selection-end-line="25" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -204,48 +228,9 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/leetcode/AutomaticTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/leetcode/TestSynize.java" />
-        <option value="$PROJECT_DIR$/src/main/java/leetcode/Philosophiers.java" />
-        <option value="$PROJECT_DIR$/src/main/java/leetcode/H2O.java" />
-        <option value="$PROJECT_DIR$/src/main/java/leetcode/H202.java" />
-        <option value="$PROJECT_DIR$/src/main/java/leetcode/FuzzBuzzMain.java" />
-        <option value="$PROJECT_DIR$/src/main/java/leetcode/FuzzBuzz2.java" />
-        <option value="$PROJECT_DIR$/src/main/java/leetcode/FizzBuzz.java" />
-        <option value="$PROJECT_DIR$/src/main/java/leetcode/FizzBuzz5.java" />
-        <option value="$PROJECT_DIR$/src/main/java/leetcode/FizzBuzz3.java" />
-        <option value="$PROJECT_DIR$/src/main/java/leetcode/BoundedBlockingQueue.java" />
-        <option value="$PROJECT_DIR$/src/main/java/leetcode/BoundBlockingQueMain.java" />
-        <option value="$PROJECT_DIR$/src/main/java/leetcode/BoundedBlockingQueue2.java" />
-        <option value="$PROJECT_DIR$/src/main/java/threadBase/TestLock.java" />
-        <option value="$PROJECT_DIR$/src/main/java/threadBase/TestSynchronized.java" />
-        <option value="$PROJECT_DIR$/src/main/java/threadBase/baseKey/readme.md" />
-        <option value="$PROJECT_DIR$/src/main/java/threadBase/baseKey/StartThread2.java" />
-        <option value="$PROJECT_DIR$/src/main/java/leetcode/Crawl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/threadBase/threadPool/TestThread.java" />
-        <option value="$PROJECT_DIR$/data/1.txt" />
-        <option value="$PROJECT_DIR$/src/main/java/threadBase/threadPool/Test1.java" />
-        <option value="$PROJECT_DIR$/src/main/java/leetcode/Crawl2.java" />
-        <option value="$PROJECT_DIR$/src/main/java/leetcode/Craw3.java" />
-        <option value="$PROJECT_DIR$/src/main/java/leetcode/Crawl4.java" />
-        <option value="$PROJECT_DIR$/src/main/java/threadBase/threadPool/ThreadPoolToCaculate.java" />
-        <option value="$PROJECT_DIR$/src/main/java/threadBase/baseKey/StartThread.java" />
-        <option value="$PROJECT_DIR$/src/main/java/threadBase/baseKey/TestFutureTask.java" />
-        <option value="$PROJECT_DIR$/src/main/java/threadBase/readme.md" />
-        <option value="$PROJECT_DIR$/src/main/java/leetcode/FizzBuzz6.java" />
-        <option value="$PROJECT_DIR$/src/main/java/leetcode/FizzBuzz4.java" />
-        <option value="$PROJECT_DIR$/src/main/java/leetcode/readme.md" />
-        <option value="$PROJECT_DIR$/src/main/java/threadBase/model/LockDead.java" />
-        <option value="$PROJECT_DIR$/src/main/java/threadBase/threadPool/readme.md" />
-        <option value="$PROJECT_DIR$/src/main/java/threadBase/threadPool/ThreadPoolSort.java" />
-        <option value="$PROJECT_DIR$/src/main/java/threadBase/threadPool/SortByThread.java" />
-        <option value="$PROJECT_DIR$/src/main/java/threadBase/threadPool/SortUtils.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/threadBase/threadPool/TimeProxy.java" />
         <option value="$PROJECT_DIR$/src/main/java/threadBase/threadPool/SortThread.java" />
         <option value="$PROJECT_DIR$/src/main/java/threadBase/model/SortThread.java" />
         <option value="$PROJECT_DIR$/src/main/java/threadBase/model/readme.md" />
-        <option value="$PROJECT_DIR$/src/main/java/threadBase/model/TimeProxy.java" />
         <option value="$PROJECT_DIR$/src/main/java/leetcode/TrafficLight.java" />
         <option value="$PROJECT_DIR$/src/main/java/threadBase/model/PC.java" />
         <option value="$PROJECT_DIR$/src/main/java/threadBase/changeState/readme.md" />
@@ -253,8 +238,47 @@
         <option value="$PROJECT_DIR$/src/main/java/threadBase/changeState/StopThread2.java" />
         <option value="$PROJECT_DIR$/src/main/java/threadBase/safe/readme.md" />
         <option value="$PROJECT_DIR$/src/main/java/threadBase/safe/Happen_Before.java" />
+        <option value="$PROJECT_DIR$/src/main/java/threadBase/readme.md" />
         <option value="$PROJECT_DIR$/src/main/java/threadBase/unsafe/readme.md" />
+        <option value="$PROJECT_DIR$/src/main/java/threadBase/unsafe/VectorTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/threadBase/unsafe/AtoIntegerTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/threadBase/unsafe/SaleTickey.java" />
+        <option value="$PROJECT_DIR$/src/main/java/leetcode/IPConfirm.java" />
+        <option value="$PROJECT_DIR$/src/main/java/leetcode/PrintOuJiInt.java" />
+        <option value="$PROJECT_DIR$/src/main/java/threadBase/model/TimeProxy.java" />
+        <option value="$PROJECT_DIR$/src/main/java/leetcode/PrintOuJi2.java" />
+        <option value="$PROJECT_DIR$/src/main/java/leetcode/PrintOuAndJi5.java" />
+        <option value="$PROJECT_DIR$/src/main/java/leetcode/Print0AndJi.java" />
+        <option value="$PROJECT_DIR$/src/main/java/threadBase/baseKey/BlockingQueueTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/leetcode/Crawl4.java" />
+        <option value="$PROJECT_DIR$/src/main/java/threadBase/model/GuardedObject.java" />
+        <option value="$PROJECT_DIR$/src/main/java/threadBase/model/MesQ.java" />
+        <option value="$PROJECT_DIR$/src/main/java/threadBase/model/MessageQue.java" />
+        <option value="$PROJECT_DIR$/src/main/java/threadBase/model/MessageQue2.java" />
+        <option value="$PROJECT_DIR$/src/main/java/threadBase/model/Test.java" />
+        <option value="$PROJECT_DIR$/src/main/java/threadBase/baseKey/TestPark.java" />
+        <option value="$PROJECT_DIR$/src/main/java/threadBase/model/Philosopher.java" />
+        <option value="$PROJECT_DIR$/src/main/java/threadBase/unsafe/LongAdderTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/threadBase/unsafe/TestAtomicArray.java" />
+        <option value="$PROJECT_DIR$/src/main/java/threadBase/unsafe/TestUnsafe.java" />
+        <option value="$PROJECT_DIR$/src/main/java/threadBase/unsafe/UnsafeAccecor.java" />
+        <option value="$PROJECT_DIR$/src/main/java/threadBase/unsafe/TestAutoIntegerUnsafe.java" />
+        <option value="$PROJECT_DIR$/src/main/java/threadBase/unsafe/TestUpdate.java" />
+        <option value="$PROJECT_DIR$/src/main/java/threadBase/unsafe/Amount.java" />
+        <option value="$PROJECT_DIR$/src/main/java/threadBase/unsafe/UnsafeAmount.java" />
+        <option value="$PROJECT_DIR$/src/main/java/threadBase/unsafe/MyAtoInteger.java" />
+        <option value="$PROJECT_DIR$/src/main/java/threadBase/unsafe/SynchorenizedAccount.java" />
+        <option value="$PROJECT_DIR$/src/main/java/threadBase/unsafe/SafeAccount.java" />
+        <option value="$PROJECT_DIR$/src/main/java/threadBase/unsafe/TestAmount.java" />
+        <option value="$PROJECT_DIR$/src/main/java/leetcode/PrintOuJi4.java" />
+        <option value="$PROJECT_DIR$/src/main/java/leetcode/printOuji6.java" />
+        <option value="$PROJECT_DIR$/src/main/java/leetcode/PrintOujiTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/leetcode/PrintOuji6.java" />
+        <option value="$PROJECT_DIR$/src/main/java/leetcode/PrintOuJi3.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/threadBase/threadPool/MyPool.java" />
+        <option value="$PROJECT_DIR$/src/main/java/threadBase/threadPool/PoolTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/threadBase/threadPool/MyThreadPool.java" />
       </list>
     </option>
   </component>
@@ -267,15 +291,15 @@
     </option>
     <option name="importingSettings">
       <MavenImportingSettings>
-        <option name="jdkForImporter" value="1.8" />
+        <option name="jdkForImporter" value="11" />
         <option name="vmOptionsForImporter" value="-Xmx768m" />
       </MavenImportingSettings>
     </option>
   </component>
   <component name="MavenRunner">
-    <option name="jreName" value="1.8" />
+    <option name="jreName" value="#JAVA_HOME" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds">
     <option name="x" value="1111" />
     <option name="width" value="1139" />
     <option name="height" value="1337" />
@@ -298,11 +322,6 @@
             <path>
               <item name="threads" type="b2602c69:ProjectViewProjectNode" />
               <item name="threads" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="threads" type="b2602c69:ProjectViewProjectNode" />
-              <item name="threads" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -333,18 +352,14 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="threadBase" type="462c0819:PsiDirectoryNode" />
-              <item name="unsafe" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="threads" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="threadPool" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -355,10 +370,10 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -377,13 +392,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Happen_Before">
-    <configuration name="Happen_Before" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="threadBase.safe.Happen_Before" />
+  <component name="RunManager" selected="Application.MyThreadPool">
+    <configuration name="MyPool" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="threadBase.threadPool.MyPool" />
       <module name="threads" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="threadBase.safe.*" />
+          <option name="PATTERN" value="threadBase.threadPool.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -391,12 +406,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PC" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="threadBase.model.PC" />
+    <configuration name="MyThreadPool" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="threadBase.threadPool.MyThreadPool" />
       <module name="threads" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="threadBase.model.*" />
+          <option name="PATTERN" value="threadBase.threadPool.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -404,12 +419,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SortThread (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="threadBase.model.SortThread" />
+    <configuration name="PrintOuJi2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.PrintOuJi2" />
       <module name="threads" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="threadBase.model.*" />
+          <option name="PATTERN" value="leetcode.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -417,12 +432,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StopThread" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="threadBase.changeState.StopThread" />
+    <configuration name="PrintOuJi3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.PrintOuJi3" />
       <module name="threads" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="threadBase.changeState.*" />
+          <option name="PATTERN" value="leetcode.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -430,12 +445,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StopThread2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="threadBase.changeState.StopThread2" />
+    <configuration name="PrintOuji6" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.PrintOuji6" />
       <module name="threads" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="threadBase.changeState.*" />
+          <option name="PATTERN" value="leetcode.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -443,13 +458,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.PrintOuJi3" />
+      <item itemvalue="Application.PrintOuji6" />
+      <item itemvalue="Application.PrintOuJi2" />
+      <item itemvalue="Application.MyPool" />
+      <item itemvalue="Application.MyThreadPool" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Happen_Before" />
-        <item itemvalue="Application.StopThread2" />
-        <item itemvalue="Application.StopThread" />
-        <item itemvalue="Application.PC" />
-        <item itemvalue="Application.SortThread (1)" />
+        <item itemvalue="Application.MyThreadPool" />
+        <item itemvalue="Application.MyPool" />
+        <item itemvalue="Application.PrintOuJi3" />
+        <item itemvalue="Application.PrintOuJi2" />
+        <item itemvalue="Application.PrintOuji6" />
       </list>
     </recent_temporary>
   </component>
@@ -487,7 +509,24 @@
       <workItem from="1653273306813" duration="2018000" />
       <workItem from="1653375288549" duration="1359000" />
       <workItem from="1653444755281" duration="114000" />
-      <workItem from="1653480429935" duration="2044000" />
+      <workItem from="1653480429935" duration="2087000" />
+      <workItem from="1653523239881" duration="598000" />
+      <workItem from="1653783785946" duration="8935000" />
+      <workItem from="1653806422078" duration="15403000" />
+      <workItem from="1653961765992" duration="1830000" />
+      <workItem from="1653979266903" duration="9192000" />
+      <workItem from="1654066736961" duration="7396000" />
+      <workItem from="1654389251886" duration="2936000" />
+      <workItem from="1654416022164" duration="9899000" />
+      <workItem from="1654429157367" duration="2296000" />
+      <workItem from="1654475156715" duration="1575000" />
+      <workItem from="1654476759007" duration="5107000" />
+      <workItem from="1654759411049" duration="83000" />
+      <workItem from="1654844742754" duration="1603000" />
+      <workItem from="1654933021439" duration="856000" />
+      <workItem from="1655197261482" duration="3710000" />
+      <workItem from="1655206537677" duration="603000" />
+      <workItem from="1655382881090" duration="1629000" />
     </task>
     <task id="LOCAL-00001" summary="多线程新开一个目录喽">
       <created>1652256483807</created>
@@ -510,17 +549,24 @@
       <option name="project" value="LOCAL" />
       <updated>1652879173139</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="unsafe类">
+      <created>1653482507085</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1653482507085</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="117164000" />
+    <option name="totallyTimeSpent" value="190858000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1508" height="900" extended-state="6" />
+    <frame x="741" y="0" width="759" height="891" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4986979" visible="true" weight="0.33448276" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4986979" weight="0.6676177" />
       <window_info id="Structure" order="1" sideWeight="0.50130206" side_tool="true" weight="0.25586206" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -529,7 +575,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.296875" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.7760417" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3997396" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -539,11 +585,10 @@
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.3294271" />
+      <window_info active="true" anchor="bottom" id="Messages" order="12" visible="true" weight="0.328125" />
       <window_info anchor="bottom" id="Anonymous Apex" order="13" />
       <window_info anchor="bottom" id="Log Analyzer" order="14" />
       <window_info anchor="bottom" id="SOQL Query" order="15" />
-      <window_info anchor="right" id="Coverage" side_tool="true" weight="0.32952926" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -553,6 +598,7 @@
       <window_info anchor="right" id="Maven" order="6" />
       <window_info anchor="right" id="Capture Analysis" order="7" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="Coverage" order="9" side_tool="true" weight="0.32952926" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -561,7 +607,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="多线程新开一个目录喽" />
     <MESSAGE value="leetcode题目使用线程池进行实现" />
-    <option name="LAST_COMMIT_MESSAGE" value="leetcode题目使用线程池进行实现" />
+    <MESSAGE value="unsafe类" />
+    <option name="LAST_COMMIT_MESSAGE" value="unsafe类" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/threads$StopThread2.ic" NAME="StopThread2 Coverage Results" MODIFIED="1653480562030" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
@@ -569,441 +616,424 @@
     </SUITE>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/leetcode/Crawl.java">
+    <entry file="jar://C:/Program Files/Java/jdk-11.0.15.1/lib/src.zip!/java.base/java/util/concurrent/atomic/Striped64.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        <state relative-caret-position="8892">
+          <caret line="301" column="58" selection-start-line="301" selection-start-column="58" selection-end-line="301" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-11.0.15.1/lib/src.zip!/java.base/java/lang/reflect/Field.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="12744">
+          <caret line="410" column="18" selection-start-line="410" selection-start-column="18" selection-end-line="410" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-11.0.15.1/lib/src.zip!/java.base/jdk/internal/reflect/FieldAccessor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="34" column="18" selection-start-line="34" selection-start-column="18" selection-end-line="34" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-11.0.15.1/lib/src.zip!/java.base/java/lang/Math.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2844">
+          <caret line="106" column="19" selection-start-line="106" selection-start-column="19" selection-end-line="106" selection-end-column="19" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#51932#51933#0" expanded="true" />
+            <element signature="e#51971#51972#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/leetcode/Crawl2.java">
+    <entry file="jar://C:/Program Files/Java/jdk-11.0.15.1/lib/src.zip!/java.base/java/util/function/Supplier.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2952">
-          <caret line="90" column="53" selection-start-line="90" selection-start-column="53" selection-end-line="90" selection-end-column="53" />
+        <state relative-caret-position="612">
+          <caret line="40" column="17" selection-start-line="40" selection-start-column="17" selection-end-line="40" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/threadBase/changeState/StopThread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-11.0.15.1/lib/src.zip!/java.base/java/util/concurrent/atomic/AtomicIntegerArray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-5364">
+          <caret line="61" column="11" selection-start-line="61" selection-start-column="11" selection-end-line="61" selection-end-column="11" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#5048#5049#0" expanded="true" />
-            <element signature="e#5097#5098#0" expanded="true" />
-            <element signature="e#5129#5130#0" expanded="true" />
-            <element signature="e#5178#5179#0" expanded="true" />
+            <element signature="e#1240#1241#0" expanded="true" />
+            <element signature="e#1279#1280#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/leetcode/Craw3.java">
+    <entry file="jar://C:/Program Files/Java/jdk-11.0.15.1/lib/src.zip!/java.base/java/lang/Thread.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5364">
-          <caret line="158" column="5" selection-start-line="20" selection-start-column="3" selection-end-line="158" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="-6656">
+          <caret line="1377" column="22" selection-start-line="1377" selection-start-column="22" selection-end-line="1377" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://D:/usersoftware/java/jdk1.8.0_221/src.zip!/java/util/concurrent/ThreadPoolExecutor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="10152">
-          <caret line="322" column="46" selection-start-line="322" selection-start-column="46" selection-end-line="322" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/usersoftware/java/jdk1.8.0_221/src.zip!/java/util/concurrent/AbstractExecutorService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1332">
-          <caret line="70" column="63" selection-start-line="70" selection-start-column="63" selection-end-line="70" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/usersoftware/java/jdk1.8.0_221/src.zip!/java/util/concurrent/Executors.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6228">
-          <caret line="214" column="33" selection-start-line="214" selection-start-column="18" selection-end-line="214" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/1.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="27" selection-start-column="27" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/leetcode/Crawl4.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1008">
-          <caret line="94" column="29" lean-forward="true" selection-start-line="94" selection-start-column="29" selection-end-line="94" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/usersoftware/java/jdk1.8.0_221/src.zip!/java/lang/Runnable.java">
+    <entry file="jar://C:/Program Files/Java/jdk-11.0.15.1/lib/src.zip!/java.base/java/util/concurrent/atomic/AtomicReferenceFieldUpdater.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="246">
-          <caret line="55" column="17" selection-start-line="55" selection-start-column="17" selection-end-line="55" selection-end-column="17" />
+          <caret line="136" column="28" selection-start-line="136" selection-start-column="28" selection-end-line="136" selection-end-column="28" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://D:/usersoftware/java/jdk1.8.0_221/src.zip!/java/util/concurrent/RunnableFuture.java">
+    <entry file="jar://C:/Program Files/Java/jdk-11.0.15.1/lib/src.zip!/jdk.unsupported/sun/misc/Unsafe.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="271">
-          <caret line="47" column="58" lean-forward="true" selection-start-line="47" selection-start-column="58" selection-end-line="47" selection-end-column="58" />
+        <state relative-caret-position="162">
+          <caret line="53" column="19" selection-start-line="53" selection-start-column="19" selection-end-line="53" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://D:/usersoftware/java/jdk1.8.0_221/src.zip!/java/util/concurrent/Executor.java">
+    <entry file="jar://C:/Program Files/Java/jdk-18.0.1.1/lib/src.zip!/java.base/java/lang/Class.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40">
+          <caret line="1702" selection-start-line="1702" selection-end-line="1702" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-18.0.1.1/lib/src.zip!/jdk.unsupported/sun/misc/Unsafe.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="148">
+          <caret line="918" column="25" selection-start-line="918" selection-start-column="25" selection-end-line="918" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/threadBase/unsafe/TestAutoIntegerUnsafe.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/threadBase/unsafe/readme.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/threadBase/unsafe/SaleTickey.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="246">
+          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/threadBase/unsafe/UnsafeAccecor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="576">
+          <caret line="18" column="28" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/threadBase/unsafe/VectorTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/threadBase/unsafe/AtoIntegerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="16" column="16" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/threadBase/unsafe/TestUnsafe.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="576">
+          <caret line="18" column="39" selection-start-line="18" selection-start-column="39" selection-end-line="18" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1213#1214#0" expanded="true" />
+            <element signature="e#1251#1252#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/threadBase/unsafe/TestUpdate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="900">
+          <caret line="27" column="5" selection-end-line="58" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-18.0.1.1/lib/src.zip!/java.base/java/util/function/IntUnaryOperator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="40" column="17" selection-start-line="40" selection-start-column="17" selection-end-line="40" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/threadBase/unsafe/TestAtomicArray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2232">
+          <caret line="70" column="9" selection-start-line="70" selection-start-column="9" selection-end-line="70" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/threadBase/unsafe/LongAdderTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="32" selection-start-line="32" selection-end-line="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/threadBase/unsafe/Amount.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/threadBase/unsafe/UnsafeAmount.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="9" column="18" lean-forward="true" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+          <folding>
+            <element signature="e#826#827#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/threadBase/unsafe/SynchorenizedAccount.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="427">
-          <caret line="127" column="17" selection-start-line="127" selection-start-column="17" selection-end-line="127" selection-end-column="17" />
+          <caret line="37" lean-forward="true" selection-start-line="37" selection-end-line="37" />
+          <folding>
+            <element signature="e#237#238#0" expanded="true" />
+            <element signature="e#267#268#0" expanded="true" />
+            <element signature="e#627#628#0" expanded="true" />
+            <element signature="e#703#704#0" expanded="true" />
+            <element signature="e#761#762#0" expanded="true" />
+            <element signature="e#825#826#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://D:/usersoftware/java/jdk1.8.0_221/src.zip!/java/util/concurrent/ExecutorService.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/threadBase/unsafe/SafeAccount.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="246">
-          <caret line="136" column="45" selection-start-line="136" selection-start-column="45" selection-end-line="136" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/usersoftware/java/jdk1.8.0_221/src.zip!/java/util/concurrent/Callable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="57" column="17" selection-start-line="57" selection-start-column="17" selection-end-line="57" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/leetcode/FizzBuzz6.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
-          <caret line="15" column="17" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
+        <state relative-caret-position="1188">
+          <caret line="44" column="24" selection-start-line="44" selection-start-column="24" selection-end-line="44" selection-end-column="24" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/leetcode/FizzBuzz.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/threadBase/unsafe/TestAmount.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2700">
-          <caret line="79" column="54" selection-start-line="79" selection-start-column="54" selection-end-line="79" selection-end-column="54" />
+        <state relative-caret-position="2376">
+          <caret line="67" column="24" selection-start-line="67" selection-start-column="24" selection-end-line="67" selection-end-column="24" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/leetcode/FizzBuzz3.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/leetcode/FooMain.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="792">
-          <caret line="22" column="24" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/leetcode/FizzBuzz4.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="10" column="18" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="72">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/leetcode/FuzzBuzzMain.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="4" column="23" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
+        <state relative-caret-position="72">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://D:/usersoftware/java/jdk1.8.0_221/src.zip!/java/util/concurrent/FutureTask.java">
+    <entry file="jar://C:/Program Files/Java/jdk-18.0.1.1/lib/src.zip!/java.base/java/util/concurrent/atomic/AtomicInteger.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5400">
-          <caret line="187" column="13" selection-start-line="187" selection-start-column="13" selection-end-line="187" selection-end-column="13" />
+        <state relative-caret-position="7056">
+          <caret line="254" column="42" selection-start-line="254" selection-start-column="42" selection-end-line="254" selection-end-column="42" />
+          <folding>
+            <element signature="e#2051#2052#0" expanded="true" />
+            <element signature="e#2079#2080#0" expanded="true" />
+            <element signature="e#5308#5309#0" expanded="true" />
+            <element signature="e#5361#5362#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/leetcode/FizzBuzz5.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/threadBase/unsafe/MyAtoInteger.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="235">
-          <caret line="73" column="36" selection-start-line="73" selection-start-column="36" selection-end-line="73" selection-end-column="36" />
+        <state relative-caret-position="2160">
+          <caret line="72" selection-start-line="72" selection-end-line="72" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#511#512#0" expanded="true" />
+            <element signature="e#541#542#0" expanded="true" />
+            <element signature="e#1634#1635#0" expanded="true" />
+            <element signature="e#1667#1668#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/leetcode/PrintOuJiInt.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="211">
+          <caret line="9" column="34" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/leetcode/Print0AndJi.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="15" column="32" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/leetcode/PrintOuJi4.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="16" column="30" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/threadBase/baseKey/TestLock.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/leetcode/PrintOuji6.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="9" column="16" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
+        <state relative-caret-position="720">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/threadBase/readme.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="216">
-            <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
-          </first_editor>
-          <second_editor />
+    <entry file="file://$PROJECT_DIR$/src/main/java/leetcode/PrintOuJi2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="720">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/threadBase/model/LockDead.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/leetcode/PrintOujiTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="756">
+          <caret line="23" column="23" selection-start-line="23" selection-start-column="23" selection-end-line="23" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/threadBase/threadPool/ThreadPoolToCaculate.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="972">
-          <caret line="72" column="14" selection-start-line="72" selection-start-column="14" selection-end-line="72" selection-end-column="14" />
+          <caret line="29" column="45" selection-start-line="29" selection-start-column="45" selection-end-line="29" selection-end-column="45" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/threadBase/threadPool/Test1.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/threadBase/model/MessageQue.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="53">
-          <caret line="41" column="6" selection-start-line="41" selection-start-column="6" selection-end-line="41" selection-end-column="6" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="324">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/threadBase/threadPool/SortByThread.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/threadBase/baseKey/TestFutureTask.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/leetcode/PrintOuJi3.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="15" column="53" selection-start-line="15" selection-start-column="53" selection-end-line="15" selection-end-column="53" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="828">
+          <caret line="27" column="27" selection-start-line="27" selection-start-column="27" selection-end-line="27" selection-end-column="27" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/threadBase/baseKey/StartThread.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_221/src.zip!/java/util/concurrent/FutureTask.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5328">
-          <caret line="152" column="41" selection-start-line="152" selection-start-column="41" selection-end-line="152" selection-end-column="41" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="3528">
+          <caret line="131" column="23" selection-start-line="131" selection-start-column="23" selection-end-line="131" selection-end-column="23" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/threadBase/threadPool/SortUtils.java" />
-    <entry file="jar://D:/usersoftware/java/jdk1.8.0_221/src.zip!/java/util/Arrays.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_221/src.zip!/java/util/concurrent/Callable.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="111888">
-          <caret line="3179" column="26" selection-start-line="3179" selection-start-column="26" selection-end-line="3179" selection-end-column="26" />
-          <folding>
-            <element signature="e#5027#5028#0" expanded="true" />
-            <element signature="e#5098#5099#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="828">
+          <caret line="56" column="13" selection-start-line="56" selection-start-column="13" selection-end-line="56" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_221/src.zip!/java/lang/FunctionalInterface.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1548">
+          <caret line="66" column="23" selection-start-line="66" selection-start-column="23" selection-end-line="66" selection-end-column="23" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/threadBase/threadPool/readme.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="792">
-            <caret line="22" column="9" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
-          </first_editor>
+          <first_editor />
           <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/threadBase/threadPool/TimeProxy.java" />
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="11" column="34" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
+        <state relative-caret-position="1080">
+          <caret line="30" column="21" selection-start-line="30" selection-start-column="21" selection-end-line="30" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/threadBase/threadPool/SortThread.java" />
-    <entry file="jar://C:/Program Files/Java/jdk-18.0.1.1/lib/src.zip!/java.base/java/util/concurrent/ThreadLocalRandom.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_221/src.zip!/java/sql/Connection.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4298">
-          <caret line="157" column="12" selection-start-line="157" selection-start-column="12" selection-end-line="157" selection-end-column="12" />
-          <folding>
-            <element signature="e#5881#5882#0" expanded="true" />
-            <element signature="e#5944#5945#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="2124">
+          <caret line="83" column="17" selection-start-line="83" selection-start-column="17" selection-end-line="83" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/threadBase/model/SortThread.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/leetcode/PrintOuAndJi5.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4536">
-          <caret line="358" column="21" selection-start-line="358" selection-start-column="21" selection-end-line="358" selection-end-column="21" />
-          <folding>
-            <element signature="method#div#0;class#SortThread#0" />
-            <element signature="method#sortByAuto#0;class#SortThread#0" />
-            <element signature="method#sortByAuto2#0;class#SortThread#0" />
-            <element signature="method#sortByAuto3#0;class#SortThread#0" />
-            <element signature="e#3663#3703#1" />
-            <element signature="method#sortByPool#0;class#SortThread#0" />
-            <element signature="method#collect#0;class#SortThread#0" />
-            <element signature="method#threadSortByFutT#0;class#SortThread#0" />
-            <element signature="method#sortByAuto#1;class#SortThread#0" />
-            <element signature="method#sortByAuto2#1;class#SortThread#0" />
-            <element signature="method#sortByPool#1;class#SortThread#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/threadBase/model/readme.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="1728">
-            <caret line="48" selection-start-line="48" selection-end-line="48" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/threadBase/model/SortUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1044">
-          <caret line="29" selection-start-line="29" selection-end-line="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/threadBase/model/PC.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1440">
-          <caret line="45" column="9" selection-start-line="45" selection-start-column="9" selection-end-line="45" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/leetcode/TrafficLight.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/threadBase/changeState/StopThread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1476">
-          <caret line="47" column="5" selection-start-line="16" selection-start-column="3" selection-end-line="47" selection-end-column="5" />
-          <folding>
-            <element signature="e#267#268#0" expanded="true" />
-            <element signature="e#309#310#0" expanded="true" />
-            <element signature="e#961#962#0" expanded="true" />
-            <element signature="e#986#987#0" expanded="true" />
-            <element signature="e#1011#1012#0" expanded="true" />
-            <element signature="e#1040#1041#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/threadBase/changeState/StopThread2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="936">
-          <caret line="26" column="52" selection-start-line="26" selection-start-column="52" selection-end-line="26" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/threadBase/threadPool/ThreadPoolToCaculate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1188">
-          <caret line="35" column="12" selection-start-line="35" selection-start-column="12" selection-end-line="35" selection-end-column="12" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/usersoftware/java/jdk1.8.0_221/src.zip!/java/util/concurrent/Future.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2232">
-          <caret line="95" column="17" selection-start-line="95" selection-start-column="17" selection-end-line="95" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/leetcode/readme.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="4140">
-            <caret line="115" column="12" selection-start-line="115" selection-start-column="12" selection-end-line="115" selection-end-column="12" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/threadBase/safe/readme.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="216">
-            <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/threadBase/safe/Happen_Before.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="355">
-          <caret line="24" column="29" selection-start-line="24" selection-start-column="29" selection-end-line="24" selection-end-column="29" />
-          <folding>
-            <element signature="e#835#836#0" expanded="true" />
-            <element signature="e#853#854#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="540">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/threadBase/model/TimeProxy.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="341">
-          <caret line="36" column="48" lean-forward="true" selection-start-line="36" selection-start-column="48" selection-end-line="36" selection-end-column="48" />
+        <state relative-caret-position="756">
+          <caret line="25" column="18" selection-start-line="25" selection-start-column="18" selection-end-line="25" selection-end-column="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/threadBase/changeState/readme.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="108">
-            <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/threadBase/unsafe/readme.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="288">
-            <caret line="8" selection-start-line="8" selection-end-line="8" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk-11.0.15.1/lib/src.zip!/java.base/java/util/concurrent/atomic/AtomicInteger.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/threadBase/threadPool/MyPool.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="246">
-          <caret line="469" column="21" selection-start-line="469" selection-start-column="21" selection-end-line="469" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/threadBase/unsafe/AtoIntegerTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        <state relative-caret-position="-2952">
+          <caret line="21" column="3" lean-forward="true" selection-start-line="21" selection-start-column="3" selection-end-line="21" selection-end-column="3" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/threadBase/threadPool/MyThreadPool.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="43" column="13" lean-forward="true" selection-start-line="43" selection-start-column="13" selection-end-line="43" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1486#1487#0" expanded="true" />
+            <element signature="e#1523#1524#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1025,6 +1055,7 @@
       </state>
       <state key="FacetStructureConfigurable.UI">
         <settings>
+          <last-edited>No facets are configured</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -1047,6 +1078,7 @@
       </state>
       <state key="JdkListConfigurable.UI">
         <settings>
+          <last-edited>1.8</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -1083,6 +1115,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
+          <last-edited>Maven: cglib:cglib:3.2.12</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

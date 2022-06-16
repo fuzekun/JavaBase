@@ -12,16 +12,16 @@ import java.util.concurrent.atomic.AtomicInteger;
 
 public class AtoIntegerTest {
 
-    AtomicInteger a = new AtomicInteger();
+    AtomicInteger val = new AtomicInteger();
 
     public void test() {
 
-        while(true) {  // 违背了空闲让进
-            int pre = a.get();
-            int nx = 0;
-            a.compareAndSet(pre, nx);
-            a.compareAndExchange(pre, nx);
-        }
+//        while(true) {  // 违背了空闲让进
+//            int pre = val.get();
+//            int nx = 0;
+//            val.compareAndSet(pre, nx);
+//            val.compareAndExchange(pre, nx);
+//        }
     }
 
     public static void main(String[] args) {

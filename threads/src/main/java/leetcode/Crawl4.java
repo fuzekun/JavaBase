@@ -70,7 +70,7 @@ public class Crawl4 {
         public List<String> call() throws Exception {
 
 //            System.out.println("url = " + urlToCrawl);
-
+            // 此处不需要使用并发的，因为统计只有主线程进行
             List<String>ans = new ArrayList<>();
             ans.add(urlToCrawl);
             this.solution.totalUrls.put(urlToCrawl, true);
@@ -78,7 +78,7 @@ public class Crawl4 {
             List<String> urls = htmlParser.getUrls(urlToCrawl);
             List<Future<List<String>>> ress = new ArrayList<>();
 
-            for (String url : urls) {       // 每一个线程开启一个新的线程进行计算
+            for (String url : urls) {       // 每一个结点开启一个新的线程进行计算
 
                 if (this.solution.totalUrls.containsKey(url)) continue;
                 this.solution.totalUrls.put(url, true);
