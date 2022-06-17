@@ -2,97 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8002ee19-5862-4896-b8e4-a9201aa2acfd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../JVM_expriment/src/main/java/first_memory/memeryLeak/TestHashLeak.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JVM_expriment/src/main/java/first_memory/memeryLeak/readme.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../deisinModel/src/main/java/command/readme.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../deisinModel/src/main/java/command/v1/Command.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../deisinModel/src/main/java/command/v1/LightOnCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../deisinModel/src/main/java/command/v1/MyLight.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../deisinModel/src/main/java/command/v1/SimpleRemoteControl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/IPConfirm.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/PrintOuAndJi5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/PrintOuJi2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/PrintOuJi3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/PrintOuJi4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/PrintOuJiInt.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/PrintOuji6.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/PrintOujiTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/threadBase/baseKey/BlockingQueueTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/threadBase/baseKey/TestPark.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/threadBase/model/GuardedObject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/threadBase/model/MesQ.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/threadBase/model/MessageQue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/threadBase/model/MessageQue2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/threadBase/model/Philosopher.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/threadBase/model/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/threadBase/threadPool/MyPool.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/threadBase/threadPool/MyThreadPool.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/threadBase/unsafe/Amount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/threadBase/unsafe/LongAdderTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/threadBase/unsafe/MyAtoInteger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/threadBase/unsafe/SafeAccount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/threadBase/unsafe/SaleTickey.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/threadBase/unsafe/SynchorenizedAccount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/threadBase/unsafe/TestAmount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/threadBase/unsafe/TestAtomicArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/threadBase/unsafe/TestUnsafe.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/threadBase/unsafe/TestUpdate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/threadBase/unsafe/UnsafeAccecor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/threadBase/unsafe/UnsafeAmount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/threadBase/unsafe/VectorTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/threads.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JVM_expriment/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JVM_expriment/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JVM_expriment/target/classes/exeSystem/Test$Fa.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JVM_expriment/target/classes/exeSystem/Test$Fa.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JVM_expriment/target/classes/exeSystem/Test$GrandFa.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JVM_expriment/target/classes/exeSystem/Test$GrandFa.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JVM_expriment/target/classes/exeSystem/Test$SSon.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JVM_expriment/target/classes/exeSystem/Test$SSon.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JVM_expriment/target/classes/exeSystem/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JVM_expriment/target/classes/exeSystem/Test.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../deisinModel/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../deisinModel/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/Crawl4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/Crawl4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/Print0AndJi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/Print0AndJi.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/threadBase/model/TimeProxy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/threadBase/model/TimeProxy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/threadBase/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/threadBase/readme.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/threadBase/unsafe/AtoIntegerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/threadBase/unsafe/AtoIntegerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/threadBase/unsafe/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/threadBase/unsafe/readme.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/leetcode/AutomaticTest$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/leetcode/AutomaticTest$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/leetcode/AutomaticTest$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/leetcode/AutomaticTest$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/leetcode/AutomaticTest$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/leetcode/AutomaticTest$3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/leetcode/AutomaticTest$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/leetcode/AutomaticTest$4.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/leetcode/AutomaticTest$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/leetcode/AutomaticTest$5.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/leetcode/AutomaticTest$6.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/leetcode/AutomaticTest$6.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/leetcode/AutomaticTest$Foo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/leetcode/AutomaticTest$Foo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/leetcode/AutomaticTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/leetcode/AutomaticTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/leetcode/BarrierTest$H2OIn.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/leetcode/BarrierTest$H2OIn.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/leetcode/BoundBlockingQueMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/leetcode/BoundBlockingQueMain.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/leetcode/BoundedBlockingQueue.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/leetcode/BoundedBlockingQueue.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/leetcode/BoundedBlockingQueue2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/leetcode/BoundedBlockingQueue2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/leetcode/Crawl$HtmlParser.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/leetcode/Crawl$HtmlParser.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/leetcode/Crawl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/leetcode/Crawl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/leetcode/Crawl2$Chore.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/leetcode/Crawl2$Chore.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/leetcode/Crawl2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/leetcode/Crawl2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/leetcode/FizzBuzz.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/leetcode/FizzBuzz.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/leetcode/FizzBuzz3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/leetcode/FizzBuzz3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/leetcode/FizzBuzz4.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/leetcode/FizzBuzz4.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/leetcode/FuzzBuzzMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/leetcode/FuzzBuzzMain.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/leetcode/H2O.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/leetcode/H2O.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/leetcode/Philosophiers.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/leetcode/Philosophiers.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/leetcode/Print0AndJi$IntConsumer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/leetcode/Print0AndJi$ZeroEvenOdd.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/leetcode/Print0AndJi.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/leetcode/Print0AndJi.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/leetcode/ProduceAndConsume$1$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/leetcode/ProduceAndConsume$1$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/leetcode/ProduceAndConsume$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/leetcode/ProduceAndConsume$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/leetcode/ProduceAndConsume$2$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/leetcode/ProduceAndConsume$2$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/leetcode/ProduceAndConsume$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/leetcode/ProduceAndConsume$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/leetcode/ProduceAndConsume.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/leetcode/ProduceAndConsume.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/leetcode/TestSynize.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/leetcode/TestSynize.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/leetcode/ThreadLocalTest$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/leetcode/ThreadLocalTest$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/leetcode/ThreadLocalTest$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/leetcode/ThreadLocalTest$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/leetcode/ThreadLocalTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/leetcode/ThreadLocalTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/leetcode/TrafficLight.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/leetcode/TrafficLight.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/threadBase/threadPool/MyThreadPool.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/threadBase/threadPool/ThreadPoolTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -108,14 +19,19 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/threadBase/threadPool/MyThreadPool.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/threadBase/threadPool/ThreadPoolTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="43" column="13" lean-forward="true" selection-start-line="43" selection-start-column="13" selection-end-line="43" selection-end-column="13" />
+            <state relative-caret-position="305">
+              <caret line="275" column="35" lean-forward="true" selection-start-line="275" selection-start-column="35" selection-end-line="275" selection-end-column="35" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1486#1487#0" expanded="true" />
-                <element signature="e#1523#1524#0" expanded="true" />
+                <element signature="e#1475#1476#0" expanded="true" />
+                <element signature="e#1514#1515#0" expanded="true" />
+                <element signature="e#1430#1431#0" expanded="true" />
+                <element signature="e#1468#1469#0" expanded="true" />
+                <element signature="e#1619#1620#0" expanded="true" />
+                <element signature="e#1654#1655#0" expanded="true" />
+                <element signature="e#6049#6059#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -124,38 +40,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/threadBase/threadPool/MyPool.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2952">
-              <caret line="21" column="3" lean-forward="true" selection-start-line="21" selection-start-column="3" selection-end-line="21" selection-end-column="3" />
+            <state relative-caret-position="377">
+              <caret line="320" column="21" lean-forward="true" selection-start-line="320" selection-start-column="21" selection-end-line="320" selection-end-column="21" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.8.0_221/src.zip!/java/util/concurrent/FutureTask.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3528">
-              <caret line="131" column="23" selection-start-line="131" selection-start-column="23" selection-end-line="131" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.8.0_221/src.zip!/java/util/concurrent/Callable.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="828">
-              <caret line="56" column="13" selection-start-line="56" selection-start-column="13" selection-end-line="56" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.8.0_221/src.zip!/java/lang/FunctionalInterface.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1548">
-              <caret line="66" column="23" selection-start-line="66" selection-start-column="23" selection-end-line="66" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -228,7 +117,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/threadBase/threadPool/SortThread.java" />
         <option value="$PROJECT_DIR$/src/main/java/threadBase/model/SortThread.java" />
         <option value="$PROJECT_DIR$/src/main/java/threadBase/model/readme.md" />
         <option value="$PROJECT_DIR$/src/main/java/leetcode/TrafficLight.java" />
@@ -279,6 +167,7 @@
         <option value="$PROJECT_DIR$/src/main/java/threadBase/threadPool/MyPool.java" />
         <option value="$PROJECT_DIR$/src/main/java/threadBase/threadPool/PoolTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/threadBase/threadPool/MyThreadPool.java" />
+        <option value="$PROJECT_DIR$/src/main/java/threadBase/threadPool/ThreadPoolTest.java" />
       </list>
     </option>
   </component>
@@ -299,7 +188,7 @@
   <component name="MavenRunner">
     <option name="jreName" value="#JAVA_HOME" />
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="1111" />
     <option name="width" value="1139" />
     <option name="height" value="1337" />
@@ -354,6 +243,16 @@
               <item name="threadBase" type="462c0819:PsiDirectoryNode" />
               <item name="threadPool" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="threads" type="b2602c69:ProjectViewProjectNode" />
+              <item name="threads" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="threadBase" type="462c0819:PsiDirectoryNode" />
+              <item name="threadPool" type="462c0819:PsiDirectoryNode" />
+              <item name="MyPool.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -366,7 +265,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/doc" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -392,7 +291,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.MyThreadPool">
+  <component name="RunManager" selected="Application.ThreadPoolTest">
     <configuration name="MyPool" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="threadBase.threadPool.MyPool" />
       <module name="threads" />
@@ -445,12 +344,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PrintOuji6" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.PrintOuji6" />
+    <configuration name="ThreadPoolTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="threadBase.threadPool.ThreadPoolTest" />
       <module name="threads" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="leetcode.*" />
+          <option name="PATTERN" value="threadBase.threadPool.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -460,18 +359,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.PrintOuJi3" />
-      <item itemvalue="Application.PrintOuji6" />
       <item itemvalue="Application.PrintOuJi2" />
       <item itemvalue="Application.MyPool" />
       <item itemvalue="Application.MyThreadPool" />
+      <item itemvalue="Application.ThreadPoolTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ThreadPoolTest" />
         <item itemvalue="Application.MyThreadPool" />
         <item itemvalue="Application.MyPool" />
         <item itemvalue="Application.PrintOuJi3" />
         <item itemvalue="Application.PrintOuJi2" />
-        <item itemvalue="Application.PrintOuji6" />
       </list>
     </recent_temporary>
   </component>
@@ -526,7 +425,7 @@
       <workItem from="1654933021439" duration="856000" />
       <workItem from="1655197261482" duration="3710000" />
       <workItem from="1655206537677" duration="603000" />
-      <workItem from="1655382881090" duration="1629000" />
+      <workItem from="1655382881090" duration="10285000" />
     </task>
     <task id="LOCAL-00001" summary="多线程新开一个目录喽">
       <created>1652256483807</created>
@@ -556,14 +455,21 @@
       <option name="project" value="LOCAL" />
       <updated>1653482507085</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="自定义线程池">
+      <created>1655384556698</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1655384556698</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="190858000" />
+    <option name="totallyTimeSpent" value="199514000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="741" y="0" width="759" height="891" extended-state="0" />
+    <frame x="-7" y="-7" width="1508" height="900" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4986979" weight="0.6676177" />
@@ -575,8 +481,8 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.7760417" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3997396" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.75651044" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3992095" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -585,7 +491,7 @@
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Messages" order="12" visible="true" weight="0.328125" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.328125" />
       <window_info anchor="bottom" id="Anonymous Apex" order="13" />
       <window_info anchor="bottom" id="Log Analyzer" order="14" />
       <window_info anchor="bottom" id="SOQL Query" order="15" />
@@ -608,7 +514,8 @@
     <MESSAGE value="多线程新开一个目录喽" />
     <MESSAGE value="leetcode题目使用线程池进行实现" />
     <MESSAGE value="unsafe类" />
-    <option name="LAST_COMMIT_MESSAGE" value="unsafe类" />
+    <MESSAGE value="自定义线程池" />
+    <option name="LAST_COMMIT_MESSAGE" value="自定义线程池" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/threads$StopThread2.ic" NAME="StopThread2 Coverage Results" MODIFIED="1653480562030" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
@@ -616,27 +523,6 @@
     </SUITE>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://C:/Program Files/Java/jdk-11.0.15.1/lib/src.zip!/java.base/java/util/concurrent/atomic/Striped64.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="8892">
-          <caret line="301" column="58" selection-start-line="301" selection-start-column="58" selection-end-line="301" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk-11.0.15.1/lib/src.zip!/java.base/java/lang/reflect/Field.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="12744">
-          <caret line="410" column="18" selection-start-line="410" selection-start-column="18" selection-end-line="410" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk-11.0.15.1/lib/src.zip!/java.base/jdk/internal/reflect/FieldAccessor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="34" column="18" selection-start-line="34" selection-start-column="18" selection-end-line="34" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk-11.0.15.1/lib/src.zip!/java.base/java/lang/Math.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2844">
@@ -1018,22 +904,48 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/threadBase/threadPool/MyPool.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2952">
-          <caret line="21" column="3" lean-forward="true" selection-start-line="21" selection-start-column="3" selection-end-line="21" selection-end-column="3" />
+        <state relative-caret-position="377">
+          <caret line="320" column="21" lean-forward="true" selection-start-line="320" selection-start-column="21" selection-end-line="320" selection-end-column="21" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/threadBase/threadPool/MyThreadPool.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_221/src.zip!/java/util/concurrent/ArrayBlockingQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="426">
+          <caret line="380" column="23" lean-forward="true" selection-start-line="380" selection-start-column="23" selection-end-line="380" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_221/src.zip!/java/util/concurrent/locks/Condition.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
-          <caret line="43" column="13" lean-forward="true" selection-start-line="43" selection-start-column="13" selection-end-line="43" selection-end-column="13" />
+          <caret line="357" column="15" lean-forward="true" selection-start-line="357" selection-start-column="15" selection-end-line="357" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_221/src.zip!/java/util/concurrent/LinkedBlockingDeque.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="439" column="39" selection-start-line="439" selection-start-column="39" selection-end-line="439" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/threadBase/threadPool/ThreadPoolTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="305">
+          <caret line="275" column="35" lean-forward="true" selection-start-line="275" selection-start-column="35" selection-end-line="275" selection-end-column="35" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1486#1487#0" expanded="true" />
-            <element signature="e#1523#1524#0" expanded="true" />
+            <element signature="e#1475#1476#0" expanded="true" />
+            <element signature="e#1514#1515#0" expanded="true" />
+            <element signature="e#1430#1431#0" expanded="true" />
+            <element signature="e#1468#1469#0" expanded="true" />
+            <element signature="e#1619#1620#0" expanded="true" />
+            <element signature="e#1654#1655#0" expanded="true" />
+            <element signature="e#6049#6059#0" expanded="true" />
           </folding>
         </state>
       </provider>
