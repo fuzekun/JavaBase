@@ -265,12 +265,7 @@ public class SortThread {
     public void sortBySingle(int[] arr) {
         Arrays.sort(arr);
     }
-    /*
-    *
-    * 为了方便代理的使用，
-    * 这里写一个方法调用被代理对象的方法，
-    * 然后执行的时间就是被代理对象的执行时间
-    * */
+
     public int[] sortByAuto(SortThread s, int[] arr, int tn) {
         int n = arr.length;
         int len = n / tn;           // 每个线程执需要排序的长度
@@ -299,7 +294,17 @@ public class SortThread {
         s.pool.shutdown();
     }
 
-
+    /*
+     *
+     * 为了方便代理的使用，
+     * 这里写一个方法调用被代理对象的方法，
+     * 然后执行的时间就是被代理对象的执行时间
+     *
+     * 另外生成了一个非代理对象，作为参数传递给所有方法，
+     * 在调用实际函数的时候，调用的是非代理对象的工作方法。
+     * 但是统计时间的时候，调用的是代理对象的方法。
+     *
+     * */
     // 进行辅助函数的测试
     public static void test() {
         int n = 16, m = 100;

@@ -1,5 +1,6 @@
 package threadBase.baseKey;
 
+import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.LockSupport;
 
 /**
@@ -10,6 +11,7 @@ import java.util.concurrent.locks.LockSupport;
  * 2. 不用配合锁
  * 3. 实现精准唤醒
  * 4. 可以先unpark后park
+ * 5. 如果打断标记为true就没法进行park
  *
  * 底层的实现是一个couter进行计数。
  * park一次就让counter--；如果park == 0就让线程进入等待队列中
@@ -40,5 +42,19 @@ public class TestPark {
 //        Thread.sleep(1000);       // 如果直接进行两次解锁，就相当于解锁了一次
         LockSupport.unpark(t);
         System.out.println("睡眠后在进行第二次解锁");
+
+
+        Thread t2 = new Thread(() -> {
+            try {
+                Thread.sleep(100);
+                Thread.currentThread().interrupt();                                     // 直接设置打断标记为true, 如果不进行后续的处理，没有什么大问题
+                LockSupport.park();
+                System.out.println("锁不住了... 这里还可以继续执行");
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
+        });
+        t2.start();
+
     }
 }
