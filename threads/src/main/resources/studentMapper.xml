@@ -22,4 +22,12 @@
             from student
             where id = #{id}
      </select>
+    <!--增加学生-->
+    <insert id="insert" parameterType="threadBase.JUC.model.Student">
+        insert into student (name, tel) values (#{name}, #{tel})
+    </insert>
+    <update id="update" parameterType="threadBase.JUC.model.Student">
+        update student set name = #{name}, tel = #{tel}
+        where id = #{id}
+    </update>
 </mapper>

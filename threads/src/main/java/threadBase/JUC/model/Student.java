@@ -1,6 +1,8 @@
 package threadBase.JUC.model;
 
+import lombok.AllArgsConstructor;
 import lombok.Data;
+import lombok.NoArgsConstructor;
 
 /**
  * @author: Zekun Fu
@@ -13,11 +15,15 @@ import lombok.Data;
  *
  */
 @Data
+@AllArgsConstructor
+@NoArgsConstructor
 public class Student {
-    String name;
     int id;
+    String name;
     String tel;
 
-
-
+    @Override
+    public Object clone() throws CloneNotSupportedException {
+        return super.clone();
+    }
 }
